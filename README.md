@@ -17,7 +17,7 @@ I am studying **human-centered cybersecurity**, particularly social-engineering 
 1. [Research questions](docs/research-questions.md) — the questions motivating this work.
 2. [Literature review and evidence map](literature-review/README.md) — the evidence base, method and limitations.
 3. [Experiment 001](experiments/equal-ctr-different-behavior/README.md) — a transparent synthetic counterexample illustrating information lost through aggregation.
-4. [Experiment 002](experiments/composite-vs-ctr-synthetic/README.md) — an exploratory arithmetic demonstration, **not** an empirically validated risk measure.
+4. [Experiment 002](experiments/composite-vs-ctr-synthetic/README.md) — a synthetic decision-sequence comparison, **not** a validated behavioral risk measure.
 5. [Research gaps](literature-review/research-gaps.md) — where stronger empirical studies are needed.
 
 **Evidence status:** Current experiments use constructed or synthetic data. They establish reproducible calculations and methodological questions, not predictive validity or effectiveness among real people. Implementation and sensitive technical details remain outside this public research repository.
@@ -74,13 +74,13 @@ For project background, see [vishwar.com](https://vishwar.com).
 
 ## New synthetic measurement work (October 2026)
 
-- [Experiment 002 — proposed composite score vs equal CTR](experiments/composite-vs-ctr-synthetic/README.md): reproducible arithmetic sensitivity exercise, not predictive validation.
+- [Experiment 002 — same risky-choice rate, different decision patterns](experiments/composite-vs-ctr-synthetic/README.md): reproducible synthetic choice-sequence analysis, not predictive validation.
 - [Synthetic staging progress note](research-notes/synthetic-staging-progress-2026-10-11.md): engineering progress, scope and unresolved measurement questions.
 
 ## Research visuals
 
 ![Experiment 001 constructed category distribution](figures/experiment-001-risk-patterns.svg)
 
-![Experiment 002 constructed score comparison](figures/experiment-002-comparison.svg)
+![Experiment 002 constructed choice distributions](figures/experiment-002-comparison.svg)
 
 All examples are synthetic; these charts do not establish predictive validity or reveal system implementation.
