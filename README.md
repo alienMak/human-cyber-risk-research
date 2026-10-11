@@ -55,3 +55,8 @@ Two automated checks run daily: one for documentation issues and another to veri
 ## Contact
 
 For project background, see [vishwar.com](https://vishwar.com).
+
+## New synthetic measurement work (October 2026)
+
+- [Experiment 002 — proposed composite score vs equal CTR](experiments/composite-vs-ctr-synthetic/README.md): reproducible arithmetic sensitivity exercise, not predictive validation.
+- [Synthetic staging progress note](research-notes/synthetic-staging-progress-2026-10-11.md): engineering progress, scope and unresolved measurement questions.
