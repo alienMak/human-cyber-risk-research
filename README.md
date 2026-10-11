@@ -24,6 +24,9 @@ I am studying **human-centered cybersecurity**, particularly social-engineering 
 
 ---
 
+
+My approach to evaluating evidence and writing about it is explained in [How I approach research](docs/research-writing-and-evidence-standard.md). The literature notes, experiments and research reflections follow the same principle: ask a clear question, show the evidence, and acknowledge what is still uncertain.
+
 ## What I'm trying to understand
 
 - How does a person's decision change when the surrounding context makes an attack feel credible?
