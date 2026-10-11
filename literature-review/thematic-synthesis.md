@@ -33,3 +33,37 @@ The question is not whether VISHWAR has a better score than traditional training
 - [Rozema and Davis (2025)](https://arxiv.org/abs/2506.19899)
 - [Understanding the Efficacy of Phishing Training in Practice (2025)](https://doi.org/10.1109/SP61157.2025.00076)
 - [Spicer and Nurse (2026)](https://doi.org/10.1016/j.cose.2026.105096)
+
+## The gap between knowing and doing has appeared for a decade
+
+The 2016 password-reuse field study is a reminder that stated intention and observed behavior can diverge, even when people can explain good practice. The 2018 password-expiration work adds another complication: repeating security advice can make it familiar and convincing without necessarily making it well supported.
+
+That gives VISHWAR a useful measurement principle. A participant's explanation of the right choice, their choice inside a simulation, and their choice in an ordinary setting should be treated as separate evidence, not three interchangeable signs of awareness.
+
+Sources: [Wash et al. 2016](https://www.usenix.org/conference/soups2016/technical-sessions/presentation/wash); [Habib et al. 2018](https://www.usenix.org/conference/soups2018/presentation/habib-password).
+
+## Security cues require interpretation, not just visibility
+
+Drury and Meyer's 2019 certificate analysis challenges the old habit of treating HTTPS as proof a site is trustworthy. In 2022, Zheng and Becker found that exposing email headers alone did not improve participants' phishing detection. Their 2023 follow-up explored checking controls and nudges, with a small formative evaluation.
+
+The pattern is worth testing, but it is not proof that any one interface will solve phishing. A useful simulation should distinguish whether the participant noticed a cue, understood what it meant, and chose an appropriate verification action.
+
+Sources: [Drury and Meyer 2019](https://www.usenix.org/conference/soups2019/presentation/drury); [Zheng and Becker 2022](https://www.usenix.org/conference/soups2022/presentation/zheng); [Zheng and Becker 2023](https://www.usenix.org/conference/soups2023/presentation/zheng).
+
+## Human-risk assessment should account for differing contexts
+
+The 2021 research on non-expert phishing detection suggests people bring useful knowledge from their own contexts, not merely deficits to correct. The work on non-native English speakers shows how language and localization affect email handling. Accessibility research involving visually disabled participants points to barriers that can alter both perception of risk and the available response.
+
+This raises a harder question for any organization-level or individual-level score: how much of a difference in measured behavior reflects the person, and how much reflects the environment or accessibility of the task?
+
+Sources: [Wash et al. 2021](https://www.usenix.org/conference/soups2021/presentation/wash); [Hasegawa et al. 2021](https://www.usenix.org/conference/soups2021/presentation/hasegawa); [Napoli et al. 2021](https://www.usenix.org/conference/soups2021/presentation/napoli).
+
+## An intervention has to be described precisely
+
+Franz and colleagues' 2021 taxonomy separates user-oriented phishing interventions by attack vector, timing and user interaction. That is a practical warning against pooling unlike interventions under a single label such as “awareness training.” A simulation with feedback, a warning displayed during a task, and a reminder months later are different things. Their behavioral endpoints may also differ.
+
+Source: [Franz et al. 2021](https://www.usenix.org/conference/soups2021/presentation/franz).
+
+## Scope of these comparisons
+
+These are connections drawn from screened conference summaries and abstracts, not a meta-analysis. Full-text appraisal, consistent outcome coding, and additional source coverage are still necessary before making field-wide claims.
