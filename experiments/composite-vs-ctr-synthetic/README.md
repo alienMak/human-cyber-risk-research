@@ -49,3 +49,11 @@ The formula is sensitive to inputs omitted by CTR. That sensitivity alone does n
 This exercise differs from Experiment 001, which uses constructed **decision elapsed time** rather than **time-to-report**. Those concepts should not be substituted.
 
 Next: formalize reporting opportunity and missingness; reconcile the operational definition of repeated risk; vary single inputs and weights; pre-specify a target outcome; then evaluate reliability, calibration and incremental utility over CTR on appropriately approved human-participant data.
+
+## Visual explanation
+
+![Experiment 002: CTR-only and proposed composite scores for two constructed cases](../../figures/experiment-002-comparison.svg)
+
+![Illustrative composite score sensitivity to hypothetical time-to-report](../../figures/experiment-002-sensitivity.svg)
+
+*Synthetic formula outputs only. Neither plot demonstrates predictive accuracy, causal effects, nor validated human-risk measurement. The second graph holds CTR at 0.5, quiz at 0.7 and hypothetical repeats at 1, and changes only report time.*
