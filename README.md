@@ -60,3 +60,11 @@ For project background, see [vishwar.com](https://vishwar.com).
 
 - [Experiment 002 — proposed composite score vs equal CTR](experiments/composite-vs-ctr-synthetic/README.md): reproducible arithmetic sensitivity exercise, not predictive validation.
 - [Synthetic staging progress note](research-notes/synthetic-staging-progress-2026-10-11.md): engineering progress, scope and unresolved measurement questions.
+
+## Research visuals
+
+![Experiment 001 constructed category distribution](figures/experiment-001-risk-patterns.svg)
+
+![Experiment 002 constructed score comparison](figures/experiment-002-comparison.svg)
+
+All examples are synthetic; these charts do not establish predictive validity or reveal system implementation.
