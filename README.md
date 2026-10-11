@@ -84,3 +84,7 @@ For project background, see [vishwar.com](https://vishwar.com).
 ![Experiment 002 constructed choice distributions](figures/experiment-002-comparison.svg)
 
 All examples are synthetic; these charts do not establish predictive validity or reveal system implementation.
+
+## Writing and evidence standards
+
+See [research writing and evidence standards](docs/research-writing-and-evidence-standard.md) for source verification, natural research voice, limitations, and public IP safeguards.
