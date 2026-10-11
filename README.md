@@ -23,6 +23,12 @@ Public research notes, experimental designs, synthetic-data examples, measuremen
 
 Start with [the research history](docs/research-history.md), [the research questions](docs/research-questions.md), and [the publishing boundaries](docs/publishing-boundaries.md). The [history workflow](docs/RESEARCH-WORKFLOW.md) explains how earlier work is recorded and checked.
 
+## Research notes
+
+- [From a capstone to a research question](research-notes/from-capstone-to-research.md)
+- [What the early pilot can and cannot show](research-notes/what-the-pilot-can-and-cannot-show.md)
+- [Measuring a decision without overclaiming](research-notes/measurement-without-overclaiming.md)
+
 ## Relationship to VISHWAR
 
 This is a separate research repository associated with VISHWAR. It is **not** the VISHWAR application source code, a production dependency, or an official release channel. Nothing in this repository should be treated as a complete description of VISHWAR's implementation.
