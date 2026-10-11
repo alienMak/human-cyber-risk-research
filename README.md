@@ -23,6 +23,10 @@ Public research notes, experimental designs, synthetic-data examples, measuremen
 
 Start with [the research history](docs/research-history.md), [the research questions](docs/research-questions.md), and [the publishing boundaries](docs/publishing-boundaries.md). The [history workflow](docs/RESEARCH-WORKFLOW.md) explains how earlier work is recorded and checked.
 
+## Literature review (2016–2026)
+
+The [living evidence review](literature-review/README.md) brings together a source matrix, review method, thematic synthesis, and research questions. It is still being expanded, with abstracts distinguished from full-text critical reviews.
+
 ## Research notes
 
 - [From a capstone to a research question](research-notes/from-capstone-to-research.md)
