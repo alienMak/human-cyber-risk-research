@@ -1,23 +1,24 @@
-# [A question raised by the source]
+# [The question this paper raises for me]
 
-**Source:** [Exact title](https://example.org)  
-**Author(s):** [Names]  
-**Published:** [Date or unknown]  
-**Source type:** [Peer-reviewed paper, preprint, report, news, podcast]  
-**Added:** [Date]
+**Paper or source:** [Exact title](https://example.org)  
+**Authors:** [Names]  
+**Publication date:** [Date or unknown]  
+**Type:** [Peer-reviewed study / preprint / report / news / podcast]  
+**What I could access:** [Full text / abstract / other specified part]  
+**Date added:** [Date]
 
-## The finding
+## What the authors investigated
 
-[What the source actually studied or reported. Distinguish evidence, claims and uncertainty.]
+[Describe the actual research question, the method and the population or data, where available. Attribute conclusions to the source.]
 
-## Why this matters for human cyber risk
+## What stood out to me
 
-[Concrete analytical interpretation, grounded in the research rather than an invented personal recollection.]
+[Explain the specific point or tension worth thinking about. If this is an analytical note prepared from sources rather than a personally reviewed paper, use neutral phrasing instead of implying personal reading.]
 
-## Where the argument needs care
+## What I would be cautious about
 
-[Limits, alternative explanation or missing variable.]
+[Identify limitations, missing details and plausible alternative explanations, with sections/pages when actually checked.]
 
-## Question to pursue
+## Where this leaves the question
 
-[A potential experiment, measurement adjustment or research question.]
+[Suggest a concrete research question, alternative measurement or future test without presenting it as a completed study.]
