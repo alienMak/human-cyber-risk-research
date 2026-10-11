@@ -61,3 +61,9 @@ The script also computes *macro category CTR* (mean of category-specific rates) 
 The additional safe events and recoding are **counterfactual manipulations**, not newly observed behaviors or effects of a training intervention. Label changes must not be selected after seeing the result in a real study.
 
 **Next:** design predeclared difficulty strata, balanced exposure schedules, scoring-key reliability checks and longitudinal participant analyses with appropriate ethics review. Avoid treating a synthetic counterexample as validation of a composite index.
+
+## Visual explanation
+
+![Experiment 001: the same aggregate CTR conceals different category distributions](../../figures/experiment-001-risk-patterns.svg)
+
+*Constructed examples from this experiment's CSV. Both learners have 3 risky decisions out of 10; there are no participant observations.*
