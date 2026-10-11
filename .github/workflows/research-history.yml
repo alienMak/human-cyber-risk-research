@@ -1,0 +1,29 @@
+name: Research history validation
+
+on:
+  schedule:
+    - cron: '7 14 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'research/history.json'
+      - 'scripts/build_history.py'
+      - 'docs/research-history.md'
+      - '.github/workflows/research-history.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out research archive
+        uses: actions/checkout@v4
+      - name: Regenerate history from documented milestones
+        run: python3 scripts/build_history.py
+      - name: Confirm committed archive matches source
+        run: python3 scripts/build_history.py --check
+      - name: Check for uncommitted generated updates
+        run: git diff --exit-code -- docs/research-history.md
