@@ -1,35 +1,23 @@
-# [Specific title about the research question]
+# [A question raised by the source]
 
-**Status:** Draft for review  
-**Source type:** [Paper / preprint / article / podcast / primary report]  
-**Title:** [Exact published title]  
-**Author(s) / host:** [Name(s)]  
-**Published:** [Original date, or unknown]  
-**Found:** [Date discovered]  
-**Source:** [Canonical URL]  
-**DOI / episode:** [If applicable]
+**Source:** [Exact title](https://example.org)  
+**Author(s):** [Names]  
+**Published:** [Date or unknown]  
+**Source type:** [Peer-reviewed paper, preprint, report, news, podcast]  
+**Added:** [Date]
 
-## What the source says
+## The finding
 
-[Short, accurately attributed summary. Distinguish the authors' findings from their speculation, and note study design when relevant.]
+[What the source actually studied or reported. Distinguish evidence, claims and uncertainty.]
 
-## Why I saved it
+## Why this matters for human cyber risk
 
-[Concrete connection to VISHWAR or a human-risk research question. This is a suggested interpretation until reviewed, not a claim that the researcher holds this view.]
+[Concrete analytical interpretation, grounded in the research rather than an invented personal recollection.]
 
-## What I would question
+## Where the argument needs care
 
-[Methodological caveat, alternative explanation, missing evidence or limitation.]
+[Limits, alternative explanation or missing variable.]
 
-## A testable next step
+## Question to pursue
 
-[One realistic hypothesis, experimental comparison or analysis idea. No claim that the test has been conducted.]
-
-## Review notes
-
-- [ ] Checked the original source
-- [ ] Checked quotations, dates and attribution
-- [ ] Confirmed the interpretation reflects my view
-- [ ] Checked public disclosure and IP/privacy boundaries
-
-**Review state:** Not yet endorsed by researcher
+[A potential experiment, measurement adjustment or research question.]
