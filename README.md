@@ -29,6 +29,9 @@ The [living evidence review](literature-review/README.md) brings together a sour
 
 ## Research notes
 
+- [Three studies on measurement and transfer](research-notes/three-studies-on-measurement.md)
+
+
 - [From a capstone to a research question](research-notes/from-capstone-to-research.md)
 - [What the early pilot can and cannot show](research-notes/what-the-pilot-can-and-cannot-show.md)
 - [Measuring a decision without overclaiming](research-notes/measurement-without-overclaiming.md)
