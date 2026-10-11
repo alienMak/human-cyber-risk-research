@@ -1,6 +1,8 @@
 # Human cyber risk literature review, 2016–2026
 
-This is a living scoping review connected to VISHWAR. It is not yet a completed systematic review.
+I'm building this living scoping review to understand how researchers have studied human cybersecurity decisions, and where the evidence still leaves important questions unanswered. It is not yet a completed systematic review.
+
+My broader research approach is explained in [How I approach research](../docs/research-writing-and-evidence-standard.md). The protocol and appraisal tables below document the method; they aren't substitutes for critically reading and interpreting each source.
 
 - [Evidence matrix](evidence-matrix.md)
 - [Review method and inclusion rules](protocol.md)
