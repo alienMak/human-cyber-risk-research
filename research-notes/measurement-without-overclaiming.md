@@ -16,7 +16,7 @@ A formula can be implemented long before it has been validated. That distinction
 
 **Consistency.** Someone might verify one type of request and accept another that uses different cues. That difference is interesting, although it shouldn't automatically be described as a stable personal trait.
 
-**Reporting.** Reporting may be a safer outcome than simply declining an attack. The scenario needs to provide a realistic opportunity to report before the metric means much.
+**Reporting as a possible future research measure.** Reporting may be a meaningful response in scenarios where someone can actually report an event. The current VISHWAR choice flow does not provide a separate report button, so a grey or context-dependent choice should not be treated as reporting. I would need an explicit reporting opportunity and a clear operational definition before studying reporting behavior as a distinct outcome.
 
 ## Where I stand for now
 
