@@ -6,7 +6,7 @@
 
 ## Design
 
-Construct two fictional learners, each making ten decisions across five attack categories, with three risky choices apiece. The data are deliberately designed examples (not sampled from participants). Every event is a tuple of `(attack_category, risky_choice_flag, decision_time_seconds)`.
+Construct two fictional learners, each making ten decisions across five attack categories, with three risky choices apiece. The data are deliberately designed examples (not sampled from participants). Each row of `data.csv` contains the learner, attack category, risky-choice flag and elapsed decision time.
 
 The result is a **constructive counterexample**: equal aggregate rates need not imply equal distributions of risky choices. It is not a statistical test and has no sampling uncertainty.
 
@@ -15,8 +15,7 @@ The result is a **constructive counterexample**: equal aggregate rates need not 
 Requires Python 3 standard library only:
 
 ```bash
-python3 experiments/equal-ctr-different-behavior/experiment.py
-python3 -m unittest discover -s experiments/equal-ctr-different-behavior -p 'test_*.py'
+python3 experiments/equal-ctr-different-behavior/analyze.py
 ```
 
 ## Observed synthetic output
