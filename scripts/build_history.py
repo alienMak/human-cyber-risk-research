@@ -32,9 +32,13 @@ def main():
             len(period) == 7 and period[:4].isdigit() and period[4] == "-" and period[5:].isdigit() and 1 <= int(period[5:]) <= 12
         ):
             raise ValueError(f"Invalid period: {period}")
-        if previous and period < previous:
+        # A year-only record has no supported month. Keep it at the end of
+        # that year rather than inventing a more precise date. Comparing the
+        # literal strings would incorrectly place "2025" before "2025-08".
+        order_key = period + ("-12" if len(period) == 4 else "")
+        if previous and order_key < previous:
             raise ValueError("Milestones must be in chronological order")
-        previous = period
+        previous = order_key
         if row["status"] not in ("documented", "provisional"):
             raise ValueError("status must be documented or provisional")
         if not isinstance(row["public"], bool):
