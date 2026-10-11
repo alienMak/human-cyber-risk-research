@@ -11,6 +11,7 @@ The project aims to extend this archive with full-text assessment, additional ye
 
 ## Research quality and reproducibility
 
+- [Verified comparative source check](source-verification-2026-10-10.md)
 - [Quality appraisal framework](quality-appraisal.md)
 - [Search and screening register](screening-register.md)
 - [Outcome definitions and study design](outcomes-and-study-design.md)
