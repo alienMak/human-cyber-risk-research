@@ -8,6 +8,22 @@ That question sits behind my work on VISHWAR, a simulation-based platform for st
 
 I am using this repository to keep the public side of that research in one place: the questions I am exploring, the assumptions I want to test, and any experiments or results that can be shared responsibly.
 
+## Start here — for prospective PhD supervisors and research collaborators
+
+I am studying **human-centered cybersecurity**, particularly social-engineering decisions, how to measure behavior under uncertainty, and whether simulation-based observations can meaningfully complement conventional awareness measures. My longer-term aim is to develop testable, ethically grounded methods for studying human cyber risk.
+
+**If you have five minutes:**
+
+1. [Research questions](docs/research-questions.md) — the questions motivating this work.
+2. [Literature review and evidence map](literature-review/README.md) — the evidence base, method and limitations.
+3. [Experiment 001](experiments/equal-ctr-different-behavior/README.md) — a transparent synthetic counterexample illustrating information lost through aggregation.
+4. [Experiment 002](experiments/composite-vs-ctr-synthetic/README.md) — an exploratory arithmetic demonstration, **not** an empirically validated risk measure.
+5. [Research gaps](literature-review/research-gaps.md) — where stronger empirical studies are needed.
+
+**Evidence status:** Current experiments use constructed or synthetic data. They establish reproducible calculations and methodological questions, not predictive validity or effectiveness among real people. Implementation and sensitive technical details remain outside this public research repository.
+
+---
+
 ## What I'm trying to understand
 
 - How does a person's decision change when the surrounding context makes an attack feel credible?
