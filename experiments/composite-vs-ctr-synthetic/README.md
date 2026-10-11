@@ -1,26 +1,38 @@
-# Experiment 002 — Does a proposed composite score distinguish cases with identical CTR?
+# Experiment 002 — Beyond aggregate risk: decision sequences and context-dependent choices
 
-**Status:** Deterministic synthetic sensitivity demonstration (2026-10-11). **Not a human study, risk predictor, or validation of the weights.**
+**Status:** Reproducible synthetic demonstration (11 October 2026). No actual participant observations and no claims about predictive validity.
 
-## Question
+## Research question
 
-Given two **constructed** examples with identical risky-choice rate (CTR), can a weighted score reflecting time-to-report, quiz results and repeat events produce different outputs? This is a test of the *formula's behavior*, not evidence of better real-world risk measurement.
+Can two fictional learners produce the same aggregate rate of risky decisions but different **sequences and distributions of other decisions**?
 
-## Definitions and formula
+Experiment 001 compared the attack categories in which risk occurred. Experiment 002 instead looks at the *order and nature of choices within an illustrative series of decision opportunities*.
 
-- CTR: fraction of risky choices in eligible decision opportunities (0–1).
-- TTR: a hypothetical time-to-report in seconds; not general decision response time.
-- Quiz: score fraction (0–1).
-- Repeats: hypothetical nonnegative repeat-event count; categories versus event counts must be defined before practical use.
+## Decision categories in this exercise
 
-Proposed exploratory score:
+- **R:** risky decision
+- **S:** safe decision
+- **G:** context-dependent or ambiguous decision, referred to here as a grey choice
 
-```
-100 * (0.35 * CTR + 0.20 * min(TTR / 300, 1)
-       + 0.25 * (1 - Quiz) + 0.20 * min(Repeats / 3, 1))
-```
+These are deliberately simplified **research annotations**, not a specification of VISHWAR's implemented choice labels, scoring rules or branching logic. Grey does **not** mean the participant reported an incident. There is no separate report-button action represented in this exercise.
 
-Unobserved TTR is **missing**, not zero. The implementation returns an unavailable composite when any component is missing, rejects out-of-range inputs, and caps time and repeats. The proposed weights and direction of time effects are assumptions, not empirical estimates.
+## Constructed observations
+
+Both fictional learners encounter the same number of opportunities:
+
+| Constructed measure | Learner A | Learner B |
+| --- | ---: | ---: |
+| Total choices | 10 | 10 |
+| Risky (R) | 3 | 3 |
+| Safe (S) | 5 | 2 |
+| Grey (G) | 2 | 5 |
+| Aggregate risky-choice rate | 30% | 30% |
+| Adjacent risky-choice pairs | 2 | 0 |
+
+- **A:** R R R S S G S S G S
+- **B:** R G S G R G S G R G
+
+The rate alone cannot distinguish their sequences or the frequency of context-dependent responses. Whether any of these differences actually matter for cybersecurity outcomes is **unknown**. An adjacent pair is not proof of habitual behavior or recurring vulnerability.
 
 ## Reproduce
 
@@ -28,32 +40,18 @@ Unobserved TTR is **missing**, not zero. The implementation returns an unavailab
 python3 experiments/composite-vs-ctr-synthetic/experiment.py
 ```
 
-Python standard library only; the script includes assertions and does not require access to VISHWAR, an API or participant records.
+This standard-library-only script constructs the observations and checks the expected counts. It does not require the VISHWAR application, private metrics, credentials or participant data.
 
-## Constructed outputs
+## Visual explanations
 
-| Scenario | CTR-only score | Proposed composite |
-| --- | ---: | ---: |
-| A: CTR .5, TTR 30s, quiz .9, repeats 0 | 50 | 22 |
-| B: CTR .5, TTR 240s, quiz .3, repeats 3 | 50 | 71 |
-| C: CTR .5, TTR missing, quiz .5, repeats 0 | 50 | Unavailable |
-| D: Fully safe / quiz 1 / no time or repeats | 0 | 0 |
-| E: Fully risky / quiz 0 / 300s / three repeats | 100 | 100 |
+![Distribution of constructed risky, safe and grey choices](../../figures/experiment-002-comparison.svg)
 
-Scenarios A and B have identical CTR but differ in *three* other variables. Thus their different scores are mathematically expected and **do not isolate the causal contribution of any single component**. Controlled one-factor-at-a-time and ablation tests are needed to assess sensitivity more precisely.
+![Constructed decision sequences](../../figures/experiment-002-sensitivity.svg)
 
-## Interpretation, limitations, and next tests
+## Limitations and future research
 
-The formula is sensitive to inputs omitted by CTR. That sensitivity alone does not establish whether those inputs actually measure vulnerability, predict incidents, or fairly compare people. A slow report could reflect scenario complexity, workload, unfamiliarity, access needs or policy, not heightened risk. No learner rankings, calibration, reliability, fairness, predictive validity or improvement claims are supported.
+This is a deterministic counterexample, **not** a study of real learners. R/S/G annotations need an independently justified coding rubric; ambiguous responses can depend on scenario context, and their prevalence should not automatically be interpreted as risk. Adjacent risky decisions also depend on ordering and scenario difficulty.
 
-This exercise differs from Experiment 001, which uses constructed **decision elapsed time** rather than **time-to-report**. Those concepts should not be substituted.
+Future studies should preregister hypotheses, define comparable opportunities, control for scenario order/difficulty, evaluate annotation reliability, and examine whether sequence-level observations predict independent outcomes on ethically collected data.
 
-Next: formalize reporting opportunity and missingness; reconcile the operational definition of repeated risk; vary single inputs and weights; pre-specify a target outcome; then evaluate reliability, calibration and incremental utility over CTR on appropriately approved human-participant data.
-
-## Visual explanation
-
-![Experiment 002: CTR-only and proposed composite scores for two constructed cases](../../figures/experiment-002-comparison.svg)
-
-![Illustrative composite score sensitivity to hypothetical time-to-report](../../figures/experiment-002-sensitivity.svg)
-
-*Synthetic formula outputs only. Neither plot demonstrates predictive accuracy, causal effects, nor validated human-risk measurement. The second graph holds CTR at 0.5, quiz at 0.7 and hypothetical repeats at 1, and changes only report time.*
+**Disclosure boundary:** No proprietary score, coefficient, threshold, or implementation mechanism is required to reproduce this public demonstration. Earlier Git history may still contain superseded technical material and is not erased by this revision.
