@@ -44,3 +44,20 @@ Do not equate decision time with VISHWAR's **time-to-report (TTR)**. This experi
 2. Evaluate competing operational definitions of repeated risk and consistency.
 3. Pre-register hypotheses and collect ethically approved, consented observations before making participant-level generalization claims.
 4. Reconcile these prototype measures against implemented VISHWAR report calculations, rather than silently treating them as identical.
+
+## Follow-up sensitivity analysis (2026-10-11)
+
+Run `python3 experiments/equal-ctr-different-behavior/sensitivity.py` to reproduce this deterministic, synthetic sensitivity analysis. No human observations were used. The script contains executable assertions checking each constructed case.
+
+| Controlled change | Result | Interpretation |
+| --- | --- | --- |
+| Original data | Both learners have CTR 3/10 = 0.30; A has 1 risky category, B has 3 | Equal CTR does not determine where risky choices occur |
+| Add four *safe* phishing observations to learner A | A's CTR becomes 3/14 ≈ 0.2143 while the number of risky categories remains 1 | Exposure and denominators can change the aggregate without changing the originally observed risky decisions |
+| Recode one of A's three risky choices as safe | CTR becomes 2/10 = 0.20; category remains the same | Coding decisions and ambiguous labels affect quantitative conclusions |
+| Only one observed attack category | Across-category CTR variance is undefined in this analysis, not zero | Insufficient variety should not be interpreted as perfect consistency |
+
+The script also computes *macro category CTR* (mean of category-specific rates) and *category CTR population variance*. Macro and micro aggregation differ when categories have unequal observation counts. These quantities are descriptions, not calibrated vulnerability scores.
+
+The additional safe events and recoding are **counterfactual manipulations**, not newly observed behaviors or effects of a training intervention. Label changes must not be selected after seeing the result in a real study.
+
+**Next:** design predeclared difficulty strata, balanced exposure schedules, scoring-key reliability checks and longitudinal participant analyses with appropriate ethics review. Avoid treating a synthetic counterexample as validation of a composite index.
