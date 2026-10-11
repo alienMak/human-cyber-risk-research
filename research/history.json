@@ -1,0 +1,63 @@
+{
+  "project": "VISHWAR",
+  "updated_through": "2026-10",
+  "note": "Dates describe when work happened, not when this public archive was committed. Month-level dates are used where precise dates are not established.",
+  "milestones": [
+    {
+      "period": "2025-02",
+      "title": "Starting the research question",
+      "description": "The initial research and planning began with a question about how people make security decisions, not only what they remember from awareness training.",
+      "status": "documented",
+      "evidence": "Project-origin chronology shared by the researcher",
+      "public": true
+    },
+    {
+      "period": "2025-08",
+      "title": "Building the capstone",
+      "description": "Development started as a cybersecurity capstone. The aim was to turn social-engineering scenarios into decisions participants could experience, rather than only read about.",
+      "status": "documented",
+      "evidence": "Capstone development chronology shared by the researcher",
+      "public": true
+    },
+    {
+      "period": "2025",
+      "title": "Capstone research and first study",
+      "description": "The capstone research was completed and an exploratory pilot was conducted with 20 participants. Static training and a standardized phishing exercise preceded VISHWAR simulations. These stages measured different things and should not be presented as a causal comparison.",
+      "status": "documented",
+      "evidence": "Capstone and exploratory-pilot discussion; exact month not yet assigned",
+      "public": true
+    },
+    {
+      "period": "2026-04",
+      "title": "Refining behavioral measurement",
+      "description": "Work focused on decision patterns, reporting and response timing, repeat-risk events, and the question of what a combined measure can reasonably say about behavior. Some scoring designs were proposals rather than validated findings.",
+      "status": "documented",
+      "evidence": "April 2026 platform and dashboard design discussions",
+      "public": true
+    },
+    {
+      "period": "2026-05",
+      "title": "Explaining the research through scenarios",
+      "description": "The public-facing framing connected influence tactics, branching simulation decisions, and the Identify, Test, Patch, Verify, Report learning cycle. Educational and school-oriented scenarios became a clearer focus.",
+      "status": "documented",
+      "evidence": "May 2026 VISHWAR methodology and school teaser work",
+      "public": true
+    },
+    {
+      "period": "2026-08",
+      "title": "Revisiting what the pilot can tell us",
+      "description": "A secondary analysis revisited the pilot and the difference between recognizing risk and acting under pressure. Cross-vector behavior, repeated exposure, and limits of the comparison remained central questions.",
+      "status": "documented",
+      "evidence": "August 2026 pilot and manuscript discussions",
+      "public": true
+    },
+    {
+      "period": "2026-10",
+      "title": "Opening a separate public research record",
+      "description": "This repository was created to make the shareable research history easier to follow while keeping production implementation and sensitive material out of the public archive.",
+      "status": "documented",
+      "evidence": "GitHub repository setup, October 2026",
+      "public": true
+    }
+  ]
+}
