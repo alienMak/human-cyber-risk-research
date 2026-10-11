@@ -1,0 +1,36 @@
+# Human Cyber Risk Research
+
+**Research notes and experiments connected to [VISHWAR](https://vishwar.com).**
+
+A lot of cybersecurity work focuses on whether someone knows the right answer. I am more interested in what happens when that person has to make a decision under pressure, with incomplete information and an attacker trying to influence the environment around them.
+
+That question sits behind my work on VISHWAR, a simulation-based platform for studying human decisions in cybersecurity situations.
+
+I am using this repository to keep the public side of that research in one place: the questions I am exploring, the assumptions I want to test, and any experiments or results that can be shared responsibly.
+
+## What I'm trying to understand
+
+- How does a person's decision change when the surrounding context makes an attack feel credible?
+- What can repeated simulation sessions tell us that a single awareness quiz cannot?
+- Which signals might help describe human cyber risk without reducing people to one score?
+- How should we distinguish an actual improvement in behavior from someone simply remembering a scenario?
+
+These are research questions, not claims that I have already answered them.
+
+## What belongs here
+
+Public research notes, experimental designs, synthetic-data examples, measurement discussions, and documentation of findings once they are ready to share. Some work may lead to code; some may not. I don't want a commit history that suggests progress where there wasn't any.
+
+Start with [the research questions](docs/research-questions.md) and [the publishing boundaries](docs/publishing-boundaries.md).
+
+## Relationship to VISHWAR
+
+This is a separate research repository associated with VISHWAR. It is **not** the VISHWAR application source code, a production dependency, or an official release channel. Nothing in this repository should be treated as a complete description of VISHWAR's implementation.
+
+## Updates
+
+An automated check runs daily to catch documentation problems. It does not invent research, change files just to create activity, or push to the default branch. Research updates will be added when there is something real to record.
+
+## Contact
+
+For project background, see [vishwar.com](https://vishwar.com).
