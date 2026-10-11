@@ -4,7 +4,7 @@ A long bibliography is not the same thing as a reliable evidence base. For this 
 
 ## Appraisal rubric
 
-Use these eight dimensions for a full-text paper review. Mark each **Yes**, **Partial**, **No**, or **Not reported**, accompanied by a page or section reference. Never calculate a pseudo-precise quality score from unanswered questions.
+For full-text reviews, I use eight questions to keep the appraisal consistent. I record **Yes**, **Partial**, **No**, or **Not reported** with a page or section reference where possible. I don't want to turn missing information into a misleading numerical quality score.
 
 | Domain | Question to answer |
 | --- | --- |
@@ -19,7 +19,7 @@ Use these eight dimensions for a full-text paper review. Mark each **Yes**, **Pa
 
 ## Appraisal record
 
-Copy this block when reviewing a full paper:
+For consistency, this is the information I aim to record when I review a full paper:
 
 **Study:**  
 **DOI or permanent link:**  
