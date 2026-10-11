@@ -29,6 +29,10 @@ Start with [the research history](docs/research-history.md), [the research quest
 - [What the early pilot can and cannot show](research-notes/what-the-pilot-can-and-cannot-show.md)
 - [Measuring a decision without overclaiming](research-notes/measurement-without-overclaiming.md)
 
+## Reading and research watch
+
+I also keep a [literature watch](literature-watch/README.md) for new papers, incident analyses, articles and podcasts connected to the research questions. Assistant-generated interpretations are labelled as drafts until I review them.
+
 ## Relationship to VISHWAR
 
 This is a separate research repository associated with VISHWAR. It is **not** the VISHWAR application source code, a production dependency, or an official release channel. Nothing in this repository should be treated as a complete description of VISHWAR's implementation.
