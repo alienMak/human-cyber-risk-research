@@ -21,7 +21,7 @@ These are research questions, not claims that I have already answered them.
 
 Public research notes, experimental designs, synthetic-data examples, measurement discussions, and documentation of findings once they are ready to share. Some work may lead to code; some may not. I don't want a commit history that suggests progress where there wasn't any.
 
-Start with [the research questions](docs/research-questions.md) and [the publishing boundaries](docs/publishing-boundaries.md).
+Start with [the research history](docs/research-history.md), [the research questions](docs/research-questions.md), and [the publishing boundaries](docs/publishing-boundaries.md). The [history workflow](docs/RESEARCH-WORKFLOW.md) explains how earlier work is recorded and checked.
 
 ## Relationship to VISHWAR
 
@@ -29,7 +29,7 @@ This is a separate research repository associated with VISHWAR. It is **not** th
 
 ## Updates
 
-An automated check runs daily to catch documentation problems. It does not invent research, change files just to create activity, or push to the default branch. Research updates will be added when there is something real to record.
+Two automated checks run daily: one for documentation issues and another to verify that the published history still matches the recorded milestones. It does not invent research, change files just to create activity, or push to the default branch. Research updates will be added when there is something real to record.
 
 ## Contact
 
