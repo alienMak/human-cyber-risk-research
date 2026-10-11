@@ -4,7 +4,7 @@
 
 How does research published between 1 January 2016 and 10 October 2026 explain security decisions under social-engineering pressure, the effects and persistence of training, and methods for measuring behavior across contexts?
 
-This is a **scoping review in progress**, not a completed PRISMA systematic review.
+This is a **scoping review in progress**, not a completed PRISMA systematic review. I use this protocol to keep the review traceable and to distinguish work completed from work still planned. My broader approach is described in [How I approach research](../docs/research-writing-and-evidence-standard.md).
 
 ## Search plan
 
