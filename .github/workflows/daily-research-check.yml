@@ -1,0 +1,29 @@
+name: Daily documentation check
+
+on:
+  schedule:
+    # 13:17 UTC: 09:17 EDT / 08:17 EST. Scheduled runs may be delayed.
+    - cron: '17 13 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '**.md'
+      - 'scripts/check_docs.py'
+      - '.github/workflows/daily-research-check.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check-documentation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Check documentation
+        run: python3 scripts/check_docs.py
+      - name: Record check summary
+        if: always()
+        run: |
+          echo 'Daily documentation check completed. No automatic commits or pushes are made.' >> "$GITHUB_STEP_SUMMARY"
