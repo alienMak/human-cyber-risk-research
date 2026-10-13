@@ -53,3 +53,7 @@ The Hacking Humans pilot episode from 2018 remains a verified lead without an in
 2. **Manufactured credibility:** How interface design, institutions, communication channels, impersonation and AI-generated material make a claim appear trustworthy, legitimately or deceptively.
 
 For each episode, distinguish a speaker's account from independently established evidence. A podcast alone cannot validate an intervention or a causal mechanism.
+
+## Transcript-level review (separate from discovery notes)
+
+- [Darknet Diaries 144: Rachel — publisher transcript reviewed](transcript-reviews/darknet-diaries-144.md). **TRANSCRIPT-REVIEWED; AUDIO NOT LISTENED.** The original discovery note remains a historical record of its earlier SHOW-NOTES-ONLY status; do not silently upgrade the other eleven notes.
