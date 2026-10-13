@@ -110,3 +110,14 @@ This broader historical research question complements, but does not expand, the 
 The historical material and podcasts are separate evidence lanes from the scoped empirical literature review. All synthetic experiments remain illustrations rather than participant-validated results. See [publishing boundaries](docs/publishing-boundaries.md).
 
 For the latest source checks, new paper appraisals and remaining verification gaps, see [research verification status (13 October 2026)](docs/research-verification-status-2026-10-13.md).
+
+## Evidence checks and new source work (October 2026)
+
+- [Full-text NIST Phish Scale appraisal](literature-review/full-text-appraisals/steves-greene-theofanos-2020.md)
+- [2025 IEEE S&P training-study appraisal — partial](literature-review/full-text-appraisals/ho-et-al-2025.md)
+- [Publisher-transcript review of Darknet Diaries 144](podcast-notes/transcript-reviews/darknet-diaries-144.md)
+- [Named DOJ prosecution source note](case-studies/doj-prosecution-record-2023.md)
+- [Publisher metadata spot checks](literature-review/publisher-metadata-check-2026-10-13.md)
+- [Reproducible Markdown link auditor](scripts/audit_research_links.py) — checks repository paths; optional network checks require running it with --external and manually investigating failures.
+
+Not all podcast episodes have been transcript-reviewed, and an end-to-end external-link audit has not been executed. The notes label these limits rather than implying completed verification.
