@@ -46,3 +46,10 @@ These 12 notes are based on checked publisher descriptions, not listening or com
 - [2026-hacking-humans-405-fake-invoices](episodes/2026-hacking-humans-405-fake-invoices.md) — SHOW-NOTES-ONLY
 
 The Hacking Humans pilot episode from 2018 remains a verified lead without an individual note because its attempted publication was blocked; no note is claimed for it.
+
+## Two complementary research lenses
+
+1. **Trust decisions:** How people recognize authority, judge credibility, and choose whether to verify a claim.
+2. **Manufactured credibility:** How interface design, institutions, communication channels, impersonation and AI-generated material make a claim appear trustworthy, legitimately or deceptively.
+
+For each episode, distinguish a speaker's account from independently established evidence. A podcast alone cannot validate an intervention or a causal mechanism.
