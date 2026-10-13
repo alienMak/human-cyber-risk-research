@@ -91,3 +91,20 @@ All examples are synthetic; these charts do not establish predictive validity or
 ## Writing and evidence standards
 
 See [research writing and evidence standards](docs/research-writing-and-evidence-standard.md) for source verification, natural research voice, limitations, and public IP safeguards.
+
+## Trust, technology and human decisions: research map
+
+This broader historical research question complements, but does not expand, the **2016–2026 scoping-review inclusion period**: how has technology changed the ways people establish, extend and verify trust, and how do institutions and systems create an appearance of credibility?
+
+- [Historical technology-and-trust timeline](research-timeline/README.md) — selective dated developments, with missing periods explicitly noted.
+- [Trust-mechanisms atlas](trust-mechanisms/README.md) — contextual cues, verification friction and explanatory limits.
+- [Constructs and measurement](constructs-and-measurement/README.md) — trust, credibility, reliance, verification, confidence and decision quality are different constructs.
+- [Human–AI trust](human-ai-trust/README.md) — public conceptual questions about reliance and accountable systems.
+- [Research debates](research-debates/README.md) — disagreements and differences in outcome definition.
+- [Case studies](case-studies/README.md) — research-grounded cases; not unverified incident reconstructions.
+- [Public research-question register](research-questions/README.md) — testable questions and potential confounds.
+- [Podcast episode index](podcast-notes/INDEX.md) and [podcast-to-paper links](podcast-notes/cross-references.md) — contextual sources, not peer-reviewed evidence.
+- [Legitimate trust and verification](research-notes/legitimate-trust-and-verification.md) — why justified reliance matters alongside deception.
+- [Source-audit status and outstanding checks](docs/source-audit.md) — partial audit, not a claim of comprehensive verification.
+
+The historical material and podcasts are separate evidence lanes from the scoped empirical literature review. All synthetic experiments remain illustrations rather than participant-validated results. See [publishing boundaries](docs/publishing-boundaries.md).
