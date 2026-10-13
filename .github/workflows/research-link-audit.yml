@@ -1,0 +1,27 @@
+name: Research link audit
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 10 * * 1'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit internal links
+        run: python scripts/audit_research_links.py --output link-audit-internal.md
+      - name: Audit external destinations
+        continue-on-error: true
+        run: python scripts/audit_research_links.py --external --output link-audit-external.md
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-link-audit
+          path: link-audit-*.md
+          if-no-files-found: warn
