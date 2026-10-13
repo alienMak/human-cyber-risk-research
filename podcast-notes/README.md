@@ -16,3 +16,9 @@ This is a **contextual-source lane**, separate from the peer-reviewed literature
 
 ## Research uses
 Thematic comparison, historical chronology, source discovery, counterexamples and generation of testable questions. Podcast claims are not included as peer-reviewed evidence or used to establish causal effectiveness without primary evidence.
+
+## Central research framing
+
+**How has technology changed the ways people establish, extend, verify and sometimes misplace trust, and how do institutions and technical systems create the appearance of trust?**
+
+The two perspectives belong together: decisions made by people, and the environments that shape what appears credible. Historical examples and contemporary AI systems should be examined without assuming that an apparent trust cue establishes legitimacy. This is a guiding question for contextual research, not a validated causal claim.
