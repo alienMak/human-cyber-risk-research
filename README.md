@@ -108,3 +108,5 @@ This broader historical research question complements, but does not expand, the 
 - [Source-audit status and outstanding checks](docs/source-audit.md) — partial audit, not a claim of comprehensive verification.
 
 The historical material and podcasts are separate evidence lanes from the scoped empirical literature review. All synthetic experiments remain illustrations rather than participant-validated results. See [publishing boundaries](docs/publishing-boundaries.md).
+
+For the latest source checks, new paper appraisals and remaining verification gaps, see [research verification status (13 October 2026)](docs/research-verification-status-2026-10-13.md).
