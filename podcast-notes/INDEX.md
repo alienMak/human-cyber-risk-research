@@ -27,3 +27,22 @@ The dates above describe historical subjects, not podcast publication dates. Epi
 3. How does AI-generated confidence affect willingness to check a claim independently?
 
 See [the note template](TEMPLATE.md) and [publishing boundaries](../docs/publishing-boundaries.md).
+
+## Individual episode discovery notes (2026-10-13)
+
+These 12 notes are based on checked publisher descriptions, not listening or completed transcript analysis. They are contextual leads, not peer-reviewed evidence.
+
+- [2018-hacking-humans-027-trustless-world](episodes/2018-hacking-humans-027-trustless-world.md) — SHOW-NOTES-ONLY
+- [2019-hacking-humans-048-data-driven-trust](episodes/2019-hacking-humans-048-data-driven-trust.md) — SHOW-NOTES-ONLY
+- [2020-darknet-diaries-080-whistleblower](episodes/2020-darknet-diaries-080-whistleblower.md) — SHOW-NOTES-ONLY
+- [2021-hacking-humans-157-trusting-carefully](episodes/2021-hacking-humans-157-trusting-carefully.md) — SHOW-NOTES-ONLY
+- [2022-hacking-humans-197-combating-social-engineering](episodes/2022-hacking-humans-197-combating-social-engineering.md) — SHOW-NOTES-ONLY
+- [2024-darknet-diaries-143-jim-hates-scams](episodes/2024-darknet-diaries-143-jim-hates-scams.md) — SHOW-NOTES-ONLY
+- [2024-darknet-diaries-144-rachel](episodes/2024-darknet-diaries-144-rachel.md) — SHOW-NOTES-ONLY
+- [2024-hacking-humans-293-social-engineering](episodes/2024-hacking-humans-293-social-engineering.md) — SHOW-NOTES-ONLY
+- [2024-hacking-humans-295-ai-social-engineering](episodes/2024-hacking-humans-295-ai-social-engineering.md) — SHOW-NOTES-ONLY
+- [2025-hacking-humans-335-ai-lies](episodes/2025-hacking-humans-335-ai-lies.md) — SHOW-NOTES-ONLY
+- [2025-hacking-humans-367-trust-no-link](episodes/2025-hacking-humans-367-trust-no-link.md) — SHOW-NOTES-ONLY
+- [2026-hacking-humans-405-fake-invoices](episodes/2026-hacking-humans-405-fake-invoices.md) — SHOW-NOTES-ONLY
+
+The Hacking Humans pilot episode from 2018 remains a verified lead without an individual note because its attempted publication was blocked; no note is claimed for it.
