@@ -1,5 +1,11 @@
 name: Research link audit
 on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - 'scripts/audit_research_links.py'
+      - '.github/workflows/research-link-audit.yml'
   workflow_dispatch:
   schedule:
     - cron: '23 10 * * 1'
