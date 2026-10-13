@@ -37,3 +37,8 @@
 A future real-world case should name the incident, original reporting or court/investigation source, confirmed sequence, affected actors, what remains disputed, and what human behavior is directly evidenced. Do not infer motivations or reproduce sensitive details from a podcast alone.
 
 Related: [Podcast cross-references](../podcast-notes/cross-references.md) and [research questions](../research-questions/README.md).
+
+## Additional public records
+
+- [FBI 2023 business-email-compromise advisory](business-email-compromise-2023.md) — documented pattern, not one reconstructed victim.
+- [DOJ February 2023 prosecution record](doj-prosecution-record-2023.md) — named proceeding from an official press release; underlying court docket not inspected.
