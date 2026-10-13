@@ -22,3 +22,10 @@ A date is not a causal explanation. The evidence here supports particular develo
 - Do new AI interfaces reproduce older authority problems or create materially different ones?
 
 Related: [Trust mechanisms](../trust-mechanisms/README.md) and [human–AI trust](../human-ai-trust/README.md).
+
+## Additional source-checked historical notes
+
+- [1955 AI proposal, 1982 email standards and 1989 Web proposal](early-computing-primary-sources.md)
+- [CERN Web chronology, 1990–1993](web-1990-1993.md)
+
+These are technical and institutional history sources, not evidence that human trust increased or declined.
