@@ -24,3 +24,9 @@ The literature repeatedly reveals a problem with comparisons across awareness st
 7. Validate any risk composite against an independently defined outcome before treating it as a predictive instrument.
 
 A 20-person exploratory pilot can inform feasibility and future hypotheses. It is not enough, by itself, to establish generalizable intervention effectiveness or validate an individual risk score.
+
+## Open measurement question: recognition versus avoidance (15 October 2026)
+
+[Nicholson et al. (2017)](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/nicholson) studied phishing classification and confidence under visual salience cues. [Hasegawa et al. (2021)](https://www.usenix.org/conference/soups2021/presentation/hasegawa) studied hypothetical responses to English and native-language messages. The outcomes cannot be treated as interchangeable.
+
+**Proposed future test, not an implemented feature:** Present consented participants with both legitimate and suspicious communications across language and cue conditions, and distinguish correct rejection, mistaken rejection of legitimate communication, verification attempts and unsafe compliance. Repeat at a later time with appropriately matched but unfamiliar material to examine transfer rather than memorization. Pre-register outcomes and compare error types separately; account for language proficiency, scenario difficulty and task context. No proprietary scoring or implementation method is specified here.
