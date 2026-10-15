@@ -43,3 +43,12 @@ For consistency, this is the information I aim to record when I review a full pa
 - **Replicated or triangulated:** Independent analysis or multiple comparable studies support an interpretation.
 
 Only use a level when the work has actually been completed. Never silently turn an abstract screening into a full-text critical review.
+
+## Cross-study evidence checkpoint (15 October 2026)
+
+| Study | Status of this checkpoint | Verified design/outcome | What remains unresolved |
+| --- | --- | --- | --- |
+| [Nicholson et al. (2017)](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/nicholson) | **Publisher abstract corroborated**; prior full-text inspection was reported in a separate working review, not independently repeated here | Signal-detection experiment with sender/receiver salience manipulations; sender salience improved detection; confidence was poorly calibrated | Re-extract recruitment, sample, uncertainty, stimulus selection and the eight appraisal domains from the full paper before assigning a new full-text appraisal |
+| [Hasegawa et al. (2021)](https://www.usenix.org/system/files/soups2021-hasegawa.pdf) | **Previously documented full-text appraisal; publisher abstract rechecked** | Survey, 862 non-native English speakers in Germany, South Korea and Japan; hypothetical email-handling choices, not actual inbox behavior | Reconcile any subgroup percentages with tables and condition denominators before using quantitative estimates in a pooled comparison |
+
+**Interpretive boundary:** these studies do not identify a shared causal effect of sender salience, language, or verification effort. No eight-domain scores are added without a newly documented full-text extraction. See [the focused note](../literature-watch/2026-10-15-language-and-verification.md).
