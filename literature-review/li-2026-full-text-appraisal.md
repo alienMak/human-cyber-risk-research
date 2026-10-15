@@ -47,3 +47,11 @@ Reporting history also differed: **73.9% domestic versus 64.5% international** i
 [Nicholson et al. (SOUPS 2017)](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/nicholson) uses classification/confidence; [Hasegawa et al. (SOUPS 2021)](https://www.usenix.org/conference/soups2021/presentation/hasegawa) uses hypothetical email handling; [Weidhaas et al. (SOUPS 2026)](https://www.usenix.org/conference/soups2026/presentation/weidhaas) uses a qualitative simulated workplace scenario (**ABSTRACT-ONLY here**). Do not pool effects or infer a single causal mechanism.
 
 **Researcher review question:** If cautious engagement includes checking a request, when should that count as a mistake, and when is it exactly the behavior security education should encourage?
+
+## Clarification: cautious engagement is not necessarily safe verification (15 October 2026)
+
+The paper's **§3.3.2 (printed p. 336)** explicitly defines cautious engagement as consulting others or searching online *while maintaining the communication*, with examples including not hanging up or blocking the sender. It is therefore inappropriate to treat all cautious engagement as either safe independent verification or unsafe compliance. The category describes continued contact plus a checking step; it does not directly measure whether sensitive information was disclosed before, during or after that step.
+
+**Methodological consequence:** A future study should distinguish the *channel of verification* (independent trusted contact versus remaining within the suspect interaction), *sequence* (before versus after sharing information), and *resolution* (whether the request was eventually accepted or refused). These are proposed general measurement distinctions, not a proprietary instrument or a claim about the Li participants' actual behavior.
+
+**Evidence:** [Original PDF, §3.3.2, p. 336](https://www.usenix.org/system/files/soups2026-li.pdf). The study elicits hypothetical response choices; it does not observe these later verification steps.
