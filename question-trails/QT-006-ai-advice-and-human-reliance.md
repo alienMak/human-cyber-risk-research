@@ -1,6 +1,5 @@
 # QT-006 — Does the source of advice change how much we trust it?
 
-**Recorded in this repository:** 18 October 2026  
 **Earlier documented context:** 13 October 2026 — The public research-question register dated 13 October 2026 lists the human-versus-software-versus-AI advice-source comparison as an open extension, not a verified earlier personal conversation.  
 **Origin:** Derived from the public research-question register RQ-03 and the user's broader human–AI trust research direction; this chain is a proposed extension, not a recollection of a specific user conversation.  
 **Status:** Open research trail; reconstructed conceptual analysis, not a verbatim transcript.
