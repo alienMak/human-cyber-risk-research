@@ -19,6 +19,12 @@ A person can recognize a suspicious request and still comply. Conversely, someon
 | Q4 | Could lower click rates conceal indiscriminate rejection? | Yes. Include legitimate requests and track false alarms. | What is a fair outcome measure? |
 | Q5 | What would challenge the recognition-action distinction? | Well-aligned observational data showing recognition and action almost always coincide across settings would weaken its practical importance. | Does the relationship generalize beyond email? |
 
+## Reasoning in more detail
+
+Imagine two participants who both refuse to click. One noticed a suspicious sender and checked through an independent route. The other ignores every unexpected message, including legitimate ones. The same final action conceals very different abilities. That is why a lower click rate, on its own, cannot establish better threat recognition.
+
+The reverse problem matters too. Someone might correctly identify an inconsistency but comply because they believe delaying the request will cause trouble at work. That is a possible explanation, not something a non-click or click record proves. To tell these cases apart, the research would need evidence about the person's interpretation and the options actually available, while recognizing that self-reported explanations can be reconstructed after the event. The existing recognition-to-action agenda discusses related studies, but the different populations and outcomes should not be treated as one pooled result.
+
 ## Competing explanations
 
 1. Knowledge deficit: users misidentify the request.
