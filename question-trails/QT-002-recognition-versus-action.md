@@ -1,6 +1,7 @@
 # QT-002 — Recognizing a threat is not the same as acting safely
 
-**Recorded:** 18 October 2026  
+**Recorded in this repository:** 18 October 2026  
+**Earlier documented context:** 6 August 2026 — Related recognition-versus-action research framing was discussed on 6 August 2026; this is not a verified first occurrence of the question.  
 **Origin:** Reconstructed from the existing public research agenda on recognition, confidence and behavior under pressure; not a verbatim conversation.  
 **Status:** Open research trail; reconstructed conceptual analysis, not a verbatim transcript.
 
