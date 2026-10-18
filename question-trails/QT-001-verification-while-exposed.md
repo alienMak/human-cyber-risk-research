@@ -19,6 +19,12 @@ Someone can be trying to verify a suspicious claim and still be exposed to the p
 | Q4 | Is a successful refusal enough to classify the entire interaction as safe? | No. A final refusal and the intermediate exposure are distinct observations. | Should outcomes and process be measured separately? |
 | Q5 | What would disprove the claim that staying connected increases manipulation risk? | Comparative evidence showing no difference under appropriately matched scenarios, or evidence that some verification methods reliably neutralize continued influence. | How could a controlled study distinguish time, verification quality and persuasion? |
 
+## Reasoning in more detail
+
+The difficult part is that an observer sees one continuous interaction but several decisions inside it. The person might have noticed something suspicious, searched for an institutional phone number, listened to a new explanation and then declined the request. Treating that whole sequence as either “safe” or “unsafe” loses the point at which the caller still had influence. The search itself could be independent, or the caller could have directed the person to a convincing but attacker-controlled page. Those are materially different actions despite looking similar from the outside.
+
+A useful counterexample is a person who stays connected solely to collect details while refusing to disclose information or follow instructions. Duration alone would overstate risk in that case. Conversely, a person who ends the call but uses a number supplied by the caller has broken contact without establishing independent verification. The two observations should not be conflated. The linked phishing literature helps frame context and usability, but it does not establish how often either behavior occurs during real calls.
+
 ## Competing explanations
 
 **Exposure mechanism:** Continued interaction gives a manipulator additional chances to reframe the story, introduce urgency or steer the person's verification. This is plausible, not established here as a quantified effect.
