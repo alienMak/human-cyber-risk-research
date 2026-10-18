@@ -31,8 +31,8 @@ Improvement on a repeated security exercise might indicate learning. It might al
 - [Research questions register](../research-questions/README.md): RQ-04 identifies a future transfer test.
 - [Recognition-to-action research agenda](../literature-review/recognition-to-action-research-questions.md): distinguishes observed decisions from inferred reasoning.
 
-## Position and next test
+## Position
 
-Treat improvement on repeated material as task-specific until appropriately matched novel tasks and delayed follow-up support transfer. The competing explanations remain open. Any proposed test should predefine outcomes, controls and limitations.
+Treat improvement on repeated material as task-specific until appropriately matched novel tasks and delayed follow-up support transfer. The competing explanations remain open.
 
 **Boundary:** No proprietary assessment formulas, participant records or unpublished platform details.
