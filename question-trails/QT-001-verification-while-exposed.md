@@ -1,6 +1,7 @@
 # QT-001 — Verification while still exposed
 
-**Recorded:** 18 October 2026  
+**Recorded in this repository:** 18 October 2026  
+**Earlier documented context:** 15 October 2026 — Related verification-and-transfer working note dated 15 October 2026; the exact first conversation date has not been established.  
 **Origin:** Earlier researcher discussion about a suspicious caller and whether remaining on the call while searching for confirmation should count as caution or continued exposure. This note is a reconstruction of the research question, **not a verbatim transcript or a validated experiment**.  
 **Status:** Open; conceptual analysis.
 
