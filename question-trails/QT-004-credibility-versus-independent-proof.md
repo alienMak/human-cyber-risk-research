@@ -19,6 +19,12 @@ A familiar name, polished message or plausible context can make a request believ
 | Q4 | Does more visible information always improve detection? | No; the existing email-header experiment challenges that assumption in its setting. | Which information actually changes decisions? |
 | Q5 | What would test whether independence matters? | Compare attacker-provided cues with independently obtained confirmation while matching task difficulty and effort. | Can we observe actual verification rather than reported intent? |
 
+## Reasoning in more detail
+
+A message can use the correct organizational logo, a familiar title and a plausible deadline while still being fraudulent. Those details explain why it feels believable; they do not authenticate who sent it. The same problem appears when a person checks a claim against a webpage suggested by the requester. They may have performed a check without obtaining an independent source.
+
+The distinction is not that surface cues are useless. In some contexts, they help people notice inconsistencies. The narrower claim is that cues and proof answer different questions. A checking tool might improve decisions, but it might also increase confidence in an incorrect judgment if its scope is misunderstood. The cited email-interface studies are relevant to those possibilities; they should not be generalized automatically to phone calls, in-person pressure or AI-mediated messages.
+
 ## Competing explanations
 
 1. Additional cues improve discrimination.
