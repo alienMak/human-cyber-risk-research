@@ -37,8 +37,5 @@ A familiar name, polished message or plausible context can make a request believ
 
 Credibility is not proof of origin. High confidence in this logical distinction; the impact of particular interface interventions remains context-dependent.
 
-## Next test
-
-Develop an ethically appropriate, pre-specified comparison with aligned observable outcomes, legitimate control cases where applicable, scenario-context documentation, and a way to discriminate the competing explanations. Record what would change the conclusion before interpreting results.
 
 **Publishing boundary:** No private participant records, unpublished methods, proprietary scoring formulas, or confidential employer material.
