@@ -165,3 +165,58 @@ A credible future study should preregister the relevant outcomes, independently 
 **Researcher review question:** If a participant rejects every request, is that good security performance, a failure to discriminate, or a reasonable strategy in an environment where the costs of accepting are exceptionally high? The answer depends on ground truth, available verification routes and consequences.
 
 **Public IP check:** General published methodological ideas and synthetic numbers only; no unpublished scoring formula, proprietary assessment rules, architecture or private participant data.
+
+
+## Q: Can blanket rejection be rational when mistakes have unequal costs? (18 October 2026)
+
+**Twin's distinction:** Discrimination describes how well a person distinguishes legitimate from malicious requests. Decision quality also depends on uncertainty, consequences and the available alternatives. The two can diverge.
+
+**Status:** Transparent decision-theoretic worked example; **not** a newly appraised empirical paper, a calibrated risk model or an operational recommendation. The previous [signal-detection example](#q-does-refusing-more-suspicious-requests-mean-someone-learned-to-discriminate-better-18-october-2026) motivates the question; the arithmetic below is an independent hypothetical illustration.
+
+### A deliberately simple expected-loss comparison
+
+Consider one incoming request. Let `p` be the estimated probability that it is malicious. Suppose the only actions are **accept** or **reject**. Assume, for illustration, that accepting a malicious request causes loss `C_attack`, rejecting a legitimate request causes loss `C_false_reject`, and the other two outcomes have zero loss. These are *assumptions*, not empirical facts.
+
+- Expected loss of **accept** = `p × C_attack`.
+- Expected loss of **reject** = `(1 − p) × C_false_reject`.
+- Reject has lower expected loss when `p > C_false_reject / (C_attack + C_false_reject)`, under these assumptions.
+
+**Synthetic scenario A — high-consequence acceptance:** `p = 0.02`, `C_attack = 1,000`, `C_false_reject = 1`. Expected loss of accepting is **20** units; rejecting is **0.98** units. Rejection minimizes this toy loss despite the low estimated attack probability.
+
+**Synthetic scenario B — costly false rejection:** `p = 0.02`, `C_attack = 10`, `C_false_reject = 5`. Expected loss of accepting is **0.2** units; rejecting is **4.9** units. Accepting minimizes the toy loss, even though the attack probability is unchanged.
+
+The units are arbitrary, and the examples **do not** establish the correct costs or probabilities for any real setting. They demonstrate why the same observed rejection behavior cannot be called rational or irrational without specifying consequences and beliefs. A person may also have the wrong estimate of `p`, making a choice coherent under their beliefs but unsafe under the actual threat environment.
+
+### The missing third option: verify
+
+Realistic choices often include **defer and verify through an independent channel**. Verification can have time and access costs, can fail, and may still expose someone to manipulation if they remain in contact with the requester. It cannot be assumed perfectly accurate or free. The best decision may be to verify first, but only if the verification route is sufficiently trustworthy and feasible in that context.
+
+A study should therefore distinguish:
+- **Perceived probability** of maliciousness from actual prevalence in the sampled tasks.
+- **Perceived consequence** from independently evaluated consequence.
+- **Discrimination** (recognizing differences between classes) from **criterion** (how readily to reject).
+- **Immediate refusal**, **temporary deferral**, **independent verification**, and **permanent rejection**.
+- **Participant preferences** from an organization's stated policy and the actual security outcome.
+
+### Why a simulation can mislead
+
+If all displayed cases are attacks, rejecting everything can look like perfect security. If a study mixes legitimate and malicious cases but gives no realistic consequences, it can estimate classification behavior without showing how people would act when errors matter. If participants know the task is a phishing test, their perceived base rate may differ from ordinary work.
+
+The cost of false rejection also differs by task: declining a suspicious promotional email is not the same as delaying an urgent, legitimate request. The relative cost of errors must be specified and justified rather than inferred from click rates.
+
+### Falsifiable next-step questions
+
+1. Does changing **stated consequences**, while holding scenarios constant, shift the response criterion without improving discrimination?
+2. Does offering a **credible independent verification route** reduce both unsafe acceptance and unnecessary permanent rejection?
+3. When outcomes are delayed, do participants choose differently than when the costs are immediate?
+4. Are differences driven by actual task evidence, perceived attack prevalence, or the perceived cost of being wrong?
+
+These are proposed study questions, **not** results. Any implementation would need ethics review, realistic but safe task design, attention to unequal costs across roles, and safeguards against interpreting an individual's preferences as a validated personal risk trait.
+
+### Appraisal of this extension
+
+**Evidence type:** analytical derivation with explicitly synthetic inputs. **Reproducibility:** all assumptions and arithmetic are stated above. **What it supports:** a logical demonstration that optimal action can vary with probabilities and error costs. **What it does not support:** empirical effect sizes, participant-level causal attribution, an approved risk appetite scale, a production decision rule or predictive validity.
+
+**Researcher review question:** If someone rejects a request for good reasons but cannot explain the threat accurately, should we call the outcome successful, the reasoning deficient, or both—and what would count as independent evidence?
+
+**Public-IP check:** Generic decision theory and hypothetical numbers only; no private scoring weights, proprietary logic, product design or participant data.
