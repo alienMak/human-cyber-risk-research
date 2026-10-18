@@ -20,14 +20,27 @@ This is a **public research-question log**, not a transcript of private conversa
 Each substantive daily research run should check whether an existing question trail has advanced or a new one is warranted. Add a row for a genuinely new trail; update a row when its evidence or position changes. Under the table, link a separate note containing:
 
 1. **Trigger and original question:** identify whether this came from a conversation, a paper, a hypothetical, or a newly proposed research question. Never fabricate a quotation or claim the user personally asked a generated question.
-2. **Question chain:** Q1, Q2, Q3 ... in order, each with a one- or two-sentence answer and what it made us ask next. Preserve uncertainty, counterarguments and changes of mind.
-3. **Brief:** two to four sentences on the key distinction and why it matters.
+2. **Question chain:** Q1, Q2, Q3 ... in order, each with a substantive, specific answer, the reasoning behind it, and what it made us ask next. Avoid short generic answers that could apply to any topic. Preserve uncertainty, counterarguments and changes of mind.
+3. **Brief:** a focused explanation of the concrete situation, the key distinction and why the question matters. Expand where necessary instead of padding.
 4. **Competing explanations:** at least two plausible mechanisms, not a foregone conclusion.
 5. **Evidence ledger:** source, access level (full text, abstract, official record, conceptual only), what it actually supports and what it cannot.
-6. **Provisional position, confidence and next test:** state what could change the answer. If evidence is missing, mark **OPEN**.
+6. **Provisional position and confidence:** explain what is supported, what remains uncertain and why. If evidence is missing, mark **OPEN**. Do not add a separate next-steps or future-test section.
 7. **Connections:** cross-link relevant existing research, but don't duplicate an entire paper appraisal.
 
 One row can represent a long question chain. Don't create a row for every rhetorical question; keep the individual questions in the detail note. Preserve earlier wording when possible, but never claim an automated reconstruction is a verbatim personal thought process.
+
+## Depth and consistency rules
+
+A trail is not complete just because it has five questions. The chain should expose the reasoning: why each question follows from the previous answer, where an assumption breaks down, and what would count against the current position. Use as many substantive questions as the argument requires, without manufacturing a fixed count.
+
+- Give a concrete scenario or counterexample where it clarifies a distinction, and label hypothetical examples as hypothetical.
+- In the detailed note, explain the *why* behind the answers in prose, not just a one-line table. A short **Reasoning in more detail** section is useful when the table cannot carry the argument.
+- Contrast alternative explanations fairly and say what evidence discriminates between them; do not choose a winner without support.
+- Attribute empirical findings to the exact study and setting. Do not treat an abstract as full-text scrutiny, or evidence from email phishing as a direct result about calls or AI advice.
+- Separate the question's earlier documented context from the date the note was actually recorded; never fabricate a personal chronology.
+- Keep the writing direct and curious, without repetitive stock phrasing or exaggerated certainty.
+- Preserve the existing headings for the brief, chain, competing explanations, evidence and provisional position. **No standalone Next steps, Next test, Next questions worth testing or action-plan sections.** The chain itself can end with unresolved questions.
+- Before committing, inspect the entire edited note and index for correct links, consistent dates, no unsupported claims and no private/proprietary details.
 
 ## Daily update discipline
 
