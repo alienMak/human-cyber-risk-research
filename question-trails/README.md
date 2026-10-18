@@ -14,6 +14,8 @@ This is a **public research-question log**, not a transcript of private conversa
 | QT-004 | 11 Oct 2026 | When is credibility mistaken for proof? | Sender cues, independent channels, confidence | Believable is not authenticated | Open: intervention effects | [QT-004](QT-004-credibility-versus-independent-proof.md) |
 | QT-005 | 12 Oct 2026 | What does a behavioral risk score actually mean? | Scenario difficulty, missingness, reliability, validity | Numeric precision does not establish validity | Open: validation | [QT-005](QT-005-what-does-a-risk-score-mean.md) |
 | QT-006 | 13 Oct 2026 | Does the apparent source of advice change reliance? | Human vs software vs AI, correctness, confidence | Source effects need controlled tests | Open: proposed AI extension | [QT-006](QT-006-ai-advice-and-human-reliance.md) |
+| QT-007 | 17 Oct 2026 | Did they recognize the threat before acting, or explain it afterward? | Hindsight, time of recognition, self-report, measurement effects | A later explanation cannot establish prior recognition | Open: timing and attribution | [QT-007](QT-007-recognition-before-or-after-the-decision.md) |
+| QT-008 | 18 Oct 2026 | Does a genuine account make a specific request legitimate? | Verification access, account identity, authorization, justified action | Authentic origin does not prove authorization | Open: behavioral and workflow effects | [QT-008](QT-008-verifying-an-account-versus-the-request.md) |
 
 ## How to add to the register
 
