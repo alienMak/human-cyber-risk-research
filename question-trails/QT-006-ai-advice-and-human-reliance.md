@@ -36,8 +36,5 @@ The same advice may be interpreted differently when it comes from a colleague, a
 
 Treat source effects as a testable question and measure reliance against advice correctness. No causal claim established by the currently linked literature.
 
-## Next test
-
-Develop an ethically appropriate, pre-specified comparison with aligned observable outcomes, legitimate control cases where applicable, scenario-context documentation, and a way to discriminate the competing explanations. Record what would change the conclusion before interpreting results.
 
 **Publishing boundary:** No private participant records, unpublished methods, proprietary scoring formulas, or confidential employer material.
