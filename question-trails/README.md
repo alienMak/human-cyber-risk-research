@@ -7,7 +7,7 @@ This is a **public research-question log**, not a transcript of private conversa
 ## Trail register
 
 | ID | Earlier documented context | Starting question | Follow-up direction | Current position | Status | Detailed note |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | QT-001 | 5 Aug 2026 | Does staying on a suspicious call while checking make someone safer? | Exposure time, independent verification, channel separation, outcomes | Verification can be cautious; staying exposed is a separate risk variable | Open: needs empirical evidence | [QT-001](QT-001-verification-while-exposed.md) |
 | QT-002 | 16 Aug 2026 | Does recognizing a threat lead to safe action? | Recognition, verification, false alarms, final action | Separate knowing from doing | Open: mechanism and transfer | [QT-002](QT-002-recognition-versus-action.md) |
 | QT-003 | 9 Sep 2026 | Is improvement learning or scenario familiarity? | Novel tasks, delay, context, control groups | Repeated-task gains alone do not establish transfer | Open: needs comparative evidence | [QT-003](QT-003-learning-and-transfer.md) |
