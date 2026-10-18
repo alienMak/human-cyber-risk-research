@@ -1,6 +1,5 @@
 # QT-005 — What can a behavioral score legitimately tell us?
 
-**Recorded in this repository:** 18 October 2026  
 **Earlier documented context:** 11 October 2026 — A related public synthetic measurement experiment and aggregation-validity discussion were documented on 11 October 2026; the broader research interest predates that entry.  
 **Origin:** Reconstructed from the user's public research agenda on behavioral measurement and uncertainty; excludes all proprietary product formulas and implementation details.  
 **Status:** Open research trail; reconstructed conceptual analysis, not a verbatim transcript.
