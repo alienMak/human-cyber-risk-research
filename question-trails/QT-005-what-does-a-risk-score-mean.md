@@ -37,8 +37,5 @@ A compact score can summarize observations, but it can also conceal missing oppo
 
 A score is a hypothesis about what observations summarize, not proof of stable individual risk. High confidence in the need for validation; no proprietary metric or formula disclosed.
 
-## Next test
-
-Develop an ethically appropriate, pre-specified comparison with aligned observable outcomes, legitimate control cases where applicable, scenario-context documentation, and a way to discriminate the competing explanations. Record what would change the conclusion before interpreting results.
 
 **Publishing boundary:** No private participant records, unpublished methods, proprietary scoring formulas, or confidential employer material.
