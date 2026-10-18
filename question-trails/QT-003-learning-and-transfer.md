@@ -1,6 +1,5 @@
 # QT-003 — Learning, repetition and transfer
 
-**Recorded in this repository:** 18 October 2026  
 **Earlier documented context:** 9 September 2026 — Related longitudinal learning and transfer questions were documented in research discussions by 9 September 2026; the first occurrence remains unverified.  
 **Origin:** Reconstructed from existing public research questions about repeated scenarios and longitudinal behavior. This is a proposed research chain, not a verbatim conversation.  
 **Status:** Open.
