@@ -54,10 +54,32 @@ A future independently designed study could distinguish:
 
 - [Canfield et al., SOUPS 2017](https://www.usenix.org/system/files/conference/soups2017/soups2017-canfield.pdf), Introduction and signal-detection task: distinguishes sensitivity to phishing versus legitimate emails from response bias. The publisher reports that task performance did not predict the particular observed malicious-software, URL and file outcomes in the Security Behavior Observatory. **Status for this follow-up: publisher abstract and PDF introduction checked; previous full-text numerical reading not independently repeated.** This is not proof that behavioral assessments cannot predict appropriately matched phishing decisions.
 - [Nicholson, Coventry and Briggs, SOUPS 2017](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/nicholson): publisher abstract reports improved phishing detection from sender salience without an unwanted response bias, and poorly calibrated confidence, particularly for phishing messages. **Status here: ABSTRACT-ONLY.** The paper's intervention and sample must be checked in full before extending its result to other contexts.
-- [Lastdrager et al., SOUPS 2017](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/lastdrager): publisher abstract reports that children's training-related phishing recognition gain returned to baseline after four weeks, while legitimate-email recognition followed a different pattern. **Status here: ABSTRACT-ONLY.** This illustrates why changes in attack rejection and legitimate acceptance should not be collapsed into a single training narrative.
+- [Lastdrager et al., SOUPS 2017](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/lastdrager): publisher abstract reports that children's overall phishing-classification score improved by 14% after training, with most of the gain in phishing recognition; recognition of legitimate emails was not improved. The publisher also reports that the phishing gain was no longer evident after four weeks. **Status here: ABSTRACT-ONLY.** This illustrates why changes in attack rejection and legitimate acceptance should not be collapsed into a single training narrative.
 
 **Competing explanations:** (1) improved discrimination between legitimate and suspicious messages; (2) a more conservative response threshold with more false alarms; (3) variation in message difficulty, familiarity or opportunity to respond. These sources do not establish which mechanism explains a particular individual's decision.
 
 **Possible future test, not an implemented system:** Compare responses to consented legitimate and suspicious communications of appropriately matched difficulty. Report mistaken acceptance and mistaken rejection separately; investigate whether an apparent improvement in attack rejection coincides with greater rejection of legitimate requests. Repeat with unfamiliar examples to distinguish retention from recognition of previously seen material. This is a general methodological question, not a proprietary implementation or scoring formula.
 
 **Researcher review question:** If someone never clicks a suspicious message, are they recognizing threats or simply refusing to engage with anything unfamiliar?
+
+
+## Follow-up: retention, transfer and reporting are different claims (18 October 2026)
+
+**Twin question:** If performance improves after training, is it better judgment, familiarity with the task, or a shift in how people respond to uncertain messages?
+
+Two already indexed studies provide contrasting evidence; this is **not** a new source count or a pooled effect.
+
+- [Lastdrager et al., *How Effective is Anti-Phishing Training for Children?* (SOUPS 2017)](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/lastdrager): Dutch primary-school experiment with a control group and a later retest. The publisher abstract reports a 14% improvement in overall classification, mainly phishing recognition; legitimate-email recognition did not improve. The phishing-detection gain returned to its earlier level after four weeks. **Status this follow-up: ABSTRACT-ONLY; full-text details of allocation, exact follow-up denominators and stimuli not re-extracted.**
+- [Chen et al., *The Effects of Group Discussion and Role-playing Anti-phishing Training* (SOUPS 2024 poster)](https://www.usenix.org/conference/soups2024/presentation/chen-poster): preregistered mixed-design experiment, N=105, three time points, a control group and three in-situ phishing tests. Publisher poster abstract reports within-group improvements in self-efficacy and support-seeking intention for both trainings; only role-playing improved support-seeking intention versus control. It also reports more phishing-test reporting and vigilance in training groups than control. **Status: POSTER ABSTRACT-ONLY; not a full journal/conference paper appraisal.**
+
+**What the authors actually measured differs:** schoolchildren's email classification and later retest versus employees' self-efficacy, intentions and in-situ phishing-test behavior. A classification score, stated intention and reporting event cannot be treated as interchangeable endpoints. Neither abstract alone establishes generalization to a different attack channel.
+
+**Competing explanations:** A later score can change because of retained knowledge, memory of stimulus patterns, differences in item difficulty or changed willingness to report. Repeated observations from the same participants also require an analysis that accounts for dependence. The accessible abstracts do not provide enough detail to resolve those explanations or audit the models.
+
+**Proposed future test, not a completed study:** Distinguish performance on previously encountered examples from appropriately matched unfamiliar examples; measure recognition of both legitimate and malicious requests; report reporting behavior separately from classification and intentions. Predefine which comparison represents retention and which represents transfer. Do not infer a causal effect from cross-study contrasts.
+
+**Open for full-text review:** allocation and attrition in Lastdrager et al.; Chen et al.'s exact intervention, unit of randomization, timing, outcome denominators and analysis of repeated measures. No numerical synthesis until these are checked.
+
+**Researcher review question:** When a participant performs better later, did they learn to recognize the underlying deception or to recognize the assessment's patterns?
+
+**Public-IP check:** Published abstracts and general methodological questions only; no unpublished technical methods, proprietary scoring, participant data or confidential material.
