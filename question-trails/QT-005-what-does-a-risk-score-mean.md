@@ -19,6 +19,12 @@ A compact score can summarize observations, but it can also conceal missing oppo
 | Q4 | Does a combined indicator become valid merely because it is numerically precise? | No. Precision of calculation is not evidence of construct validity or predictive utility. | What would validation require? |
 | Q5 | What would falsify the score's practical value? | Poor reliability, weak association with aligned outcomes, unstable performance across populations or harmful false confidence would all challenge it. | How should uncertainty be reported? |
 
+## Reasoning in more detail
+
+Suppose two people each make one unsafe choice in five opportunities. That looks equivalent in a simple summary, but one may have faced routine requests while the other faced unusually convincing impersonations. Even before any scoring method is discussed, the denominator, task mix and exposure opportunities affect what can reasonably be inferred.
+
+Time is similarly ambiguous. A quick decision might reflect impulsivity, practiced recognition, an accessible interface or a familiar scenario. Repeated mistakes could signal a persistent difficulty, but only if the opportunities are comparable and missing observations are accounted for. Combining measurements does not remove these ambiguities. A precise number can be reproducible while still failing to measure the construct its label suggests. This is a public methodological critique, not a description of any proprietary scoring system.
+
 ## Competing explanations
 
 1. Observed differences reflect stable decision tendencies.
