@@ -1,6 +1,5 @@
 # QT-004 — When does credibility get mistaken for proof?
 
-**Recorded in this repository:** 18 October 2026  
 **Earlier documented context:** 13 October 2026 — Related public verification and credibility questions were documented in the research-question register dated 13 October 2026; this is not the first proven discussion date.  
 **Origin:** Reconstructed from the repository's existing trust and verification research, including publisher-sourced email studies; conceptual questions are not attributed as verbatim user quotes.  
 **Status:** Open research trail; reconstructed conceptual analysis, not a verbatim transcript.
