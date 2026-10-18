@@ -121,3 +121,7 @@ For the latest source checks, new paper appraisals and remaining verification ga
 - [Reproducible Markdown link auditor](scripts/audit_research_links.py) — checks repository paths; optional network checks require running it with --external and manually investigating failures.
 
 Not all podcast episodes have been transcript-reviewed, and an end-to-end external-link audit has not been executed. The notes label these limits rather than implying completed verification.
+
+## Question trails
+
+I also keep a [question-trail register](question-trails/README.md) to preserve how a research question develops: the follow-up questions, competing explanations, what the evidence does and does not support, and where my position remains provisional. These are dated research reconstructions, not fabricated transcripts of private conversations.
