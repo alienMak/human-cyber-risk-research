@@ -220,3 +220,78 @@ These are proposed study questions, **not** results. Any implementation would ne
 **Researcher review question:** If someone rejects a request for good reasons but cannot explain the threat accurately, should we call the outcome successful, the reasoning deficient, or both—and what would count as independent evidence?
 
 **Public-IP check:** Generic decision theory and hypothetical numbers only; no private scoring weights, proprietary logic, product design or participant data.
+
+
+## Q: If someone makes the right decision for the wrong reason, did training succeed? (18 October 2026)
+
+**Provisional answer:** The immediate outcome can be successful without demonstrating the intended learning. A behavioral result is an observation; a claim about the mental process that produced it is an inference requiring additional evidence.
+
+**Evidence anchors, with access limits:**
+- [Wash, Nthala and Rader, *Knowledge and Capabilities that Non-Expert Users Bring to Phishing Detection* (SOUPS 2021)](https://www.usenix.org/conference/soups2021/presentation/wash): retrospective accounts illustrate the value and limits of asking people how they recognized a suspicious message. Prior full-text appraisal is recorded elsewhere in this repository; this section is a synthesis, not a new full-text appraisal.
+- [Häring et al., *Can Johnny be a Whistleblower? A Qualitative User Study of a Social Authentication Signal Extension in an Adversarial Scenario* (SOUPS 2024)](https://www.usenix.org/conference/soups2024/presentation/haring): an observed authentication task makes behavior visible, but participant explanations and the meaning of a safety-number mismatch still require careful interpretation. Previously appraised elsewhere in the repository.
+- [Distler et al., *A Systematic Review of Empirical Methods for Evaluating Security and Privacy Interventions* (ACM TOCHI, 2021)](https://doi.org/10.1145/3469845): method review supports distinguishing self-reported and observed evidence; the repository previously recorded a section-level inspection, not an independent replication of the review.
+
+### Three hypothetical people, one identical outcome
+
+All three reject a malicious request:
+1. **Recognition:** A identifies a specific inconsistency and declines.
+2. **Blanket avoidance:** B declines every unfamiliar request, including legitimate ones.
+3. **Incidental refusal:** C declines because they are occupied and never examines the request.
+
+The recorded binary outcome is the same. It would be an error to infer identical understanding, strategy or future performance. It would also be an error to infer that A is always safer: the recognized cue may be unreliable in another setting.
+
+### Separate the constructs before measuring them
+
+| Construct | Candidate observation | What it does **not** prove |
+| --- | --- | --- |
+| Outcome | Accepted, rejected, reported or deferred a request | Why the choice was made |
+| Discrimination | Correct decisions across malicious **and** legitimate cases | That the decision will persist over time |
+| Process | Time-ordered verification steps and consulted evidence | That the explanation is complete or truthful |
+| Confidence | Confidence recorded before feedback | Accuracy or calibrated judgment by itself |
+| Retention | Performance after a delayed interval | Transfer to a different attack mechanism |
+| Transfer | Performance on unfamiliar channels and contexts | Prevention of real-world harm |
+| Consequences | Independent assessment of downstream effects | That one particular mental strategy caused them |
+
+### How to investigate reasoning without claiming to read minds
+
+A stronger design would combine **behavioral traces** with **limited, carefully timed explanation measures**. For example, observe whether the participant opened a known-good directory or independently initiated contact, and ask what evidence mattered **before revealing the correct answer**. Compare this with a delayed explanation to estimate recall instability. Do not assume a verbal account reveals the true cause: participants may rationalize afterward, omit steps, or change their answers when prompted.
+
+Collecting explanations can itself change behavior. Think-aloud instructions, a conspicuous timer, explicit security framing and repeated questions may all shift attention and criterion. Compare measurement conditions where ethical and feasible, and distinguish the effect of the task from the effect of being observed.
+
+### Four competing explanations for apparent success
+
+- **Learned discrimination:** the participant recognizes diagnostic features and handles legitimate requests appropriately.
+- **Conservative criterion:** the participant rejects more cases of both kinds, reducing false negatives at the cost of false positives.
+- **Familiarity or memorization:** the participant recognizes training artifacts but not unfamiliar deception.
+- **Situational luck or constraints:** the participant's action was determined by workload, interruption, interface failure or other factors unrelated to the intended learning.
+
+A single correct response cannot adjudicate among these. Repeated, independently labeled, comparably difficult cases can narrow the possibilities, but still do not make internal reasoning directly observable.
+
+### Concrete falsification tests
+
+1. **Legitimate controls:** Does apparent improvement on malicious requests coexist with an increase in incorrect rejection of legitimate ones?
+2. **Novel-cue transfer:** Does improvement survive changes to sender, wording, channel and attack mechanism?
+3. **Delayed retest:** Does the advantage persist when the participant has no recent reminder that a phishing task is underway?
+4. **Process convergence:** Do independently logged verification steps agree with contemporaneous accounts, and does agreement predict later behavior?
+5. **Measurement reactivity:** Does requiring an explanation alter the action compared with an otherwise comparable condition without explanation?
+
+Each test needs prespecified endpoints, uncertainty estimates, protection against repeated-measures pseudoreplication, and an ethical approach to deception and privacy.
+
+### Eight-domain checkpoint
+
+| Domain | Status for this synthesis | Limitation |
+| --- | --- | --- |
+| Design | **Conceptual synthesis** of prior empirical studies | No new intervention or comparison group |
+| Sampling | **Not applicable** to hypothetical cases | Cannot estimate population prevalence |
+| Outcomes | **Defined** as separate constructs | Real instruments need validation |
+| Confounding | **Identified** attention, workload, scenario familiarity and prompting | Effects not estimated here |
+| Measurement | **Proposed** traces, pre-feedback reports and delayed tests | Self-report and traces each have blind spots |
+| Analysis | **No new statistics** | Repeated observations and uncertainty remain for future work |
+| Generalization | **Not established** | Cross-vector transfer requires direct testing |
+| Ethics/reproducibility | **Transparent hypothetical examples** | Any real trace collection requires consent and minimization |
+
+**Twin's conclusion:** Score the observed outcome as an outcome, not as proof of a mental state. If the research question concerns learning, gather separate evidence of discrimination, retention and transfer; do not silently collapse them into a single success label.
+
+**Next question:** Can requiring participants to explain their choices improve judgment by forcing reflection, while simultaneously contaminating the very behavior the experiment intends to measure?
+
+**Public-IP boundary:** General research design questions only; no proprietary platform mechanics, scoring weights, unpublished results or private data.
