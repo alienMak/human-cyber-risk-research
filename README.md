@@ -60,11 +60,7 @@ The [living evidence review](literature-review/README.md) brings together a sour
 
 ## Reading and research watch
 
-I also keep a [literature watch](literature-watch/README.md) for new papers, incident analyses, articles and podcasts connected to the research questions. Assistant-generated interpretations are labelled as drafts until I review them.
-
-## Related literature
-
-[The literature watch](literature-watch/README.md) collects research commentaries on phishing, social engineering, training effectiveness and human decision-making. [Browse the source index](literature-watch/sources.md).
+The [literature watch](literature-watch/README.md) collects papers, incident analyses, articles and podcasts connected to the research questions, with a [source index](literature-watch/sources.md). I distinguish what a source actually reports from my interpretation of it; notes awaiting review are not presented as established findings.
 
 ## Relationship to VISHWAR
 
@@ -72,13 +68,13 @@ This is a separate research repository associated with VISHWAR. It is **not** th
 
 ## Updates
 
-Two automated checks run daily: one for documentation issues and another to verify that the published history still matches the recorded milestones. It does not invent research, change files just to create activity, or push to the default branch. Research updates will be added when there is something real to record.
+GitHub Actions runs daily documentation and research-history checks, and a separate link audit runs weekly and on relevant pushes. These checks validate repository material; they do not write research or push commits. Research notes are added or revised only when there is something substantive to document.
 
 ## Contact
 
 For project background, see [vishwar.com](https://vishwar.com).
 
-## New synthetic measurement work (October 2026)
+## Synthetic measurement work (October 2026)
 
 - [Experiment 002 — same risky-choice rate, different decision patterns](experiments/composite-vs-ctr-synthetic/README.md): reproducible synthetic choice-sequence analysis, not predictive validation.
 - [Synthetic staging progress note](research-notes/synthetic-staging-progress-2026-10-11.md): engineering progress, scope and unresolved measurement questions.
@@ -90,10 +86,6 @@ For project background, see [vishwar.com](https://vishwar.com).
 ![Experiment 002 constructed choice distributions](figures/experiment-002-comparison.svg)
 
 All examples are synthetic; these charts do not establish predictive validity or reveal system implementation.
-
-## Writing and evidence standards
-
-See [research writing and evidence standards](docs/research-writing-and-evidence-standard.md) for source verification, natural research voice, limitations, and public IP safeguards.
 
 ## Trust, technology and human decisions: research map
 
@@ -114,7 +106,7 @@ The historical material and podcasts are separate evidence lanes from the scoped
 
 For the latest source checks, new paper appraisals and remaining verification gaps, see [research verification status (13 October 2026)](docs/research-verification-status-2026-10-13.md).
 
-## Evidence checks and new source work (October 2026)
+## Source checks and appraisals (October 2026)
 
 - [Full-text NIST Phish Scale appraisal](literature-review/full-text-appraisals/steves-greene-theofanos-2020.md)
 - [2025 IEEE S&P training-study appraisal — partial](literature-review/full-text-appraisals/ho-et-al-2025.md)
