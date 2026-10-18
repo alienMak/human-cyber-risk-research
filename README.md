@@ -15,10 +15,11 @@ I am studying **human-centered cybersecurity**, particularly social-engineering 
 **If you have five minutes:**
 
 1. [Research questions](docs/research-questions.md) — the questions motivating this work.
-2. [Literature review and evidence map](literature-review/README.md) — the evidence base, method and limitations.
-3. [Experiment 001](experiments/equal-ctr-different-behavior/README.md) — a transparent synthetic counterexample illustrating information lost through aggregation.
-4. [Experiment 002](experiments/composite-vs-ctr-synthetic/README.md) — a synthetic decision-sequence comparison, **not** a validated behavioral risk measure.
-5. [Research gaps](literature-review/research-gaps.md) — where stronger empirical studies are needed.
+2. [Question trails](question-trails/README.md) — how one question leads to another, including the assumptions and competing explanations along the way.
+3. [Literature review and evidence map](literature-review/README.md) — the evidence base, method and limitations.
+4. [Experiment 001](experiments/equal-ctr-different-behavior/README.md) — a transparent synthetic counterexample illustrating information lost through aggregation.
+5. [Experiment 002](experiments/composite-vs-ctr-synthetic/README.md) — a synthetic decision-sequence comparison, **not** a validated behavioral risk measure.
+6. [Research gaps](literature-review/research-gaps.md) — where stronger empirical studies are needed.
 
 **Evidence status:** Current experiments use constructed or synthetic data. They establish reproducible calculations and methodological questions, not predictive validity or effectiveness among real people. Implementation and sensitive technical details remain outside this public research repository.
 
@@ -35,6 +36,8 @@ My approach to evaluating evidence and writing about it is explained in [How I a
 - How should we distinguish an actual improvement in behavior from someone simply remembering a scenario?
 
 These are research questions, not claims that I have already answered them.
+
+I also keep [question trails](question-trails/README.md) for the questions that don't stop at the first answer. They show the follow-ups, alternative explanations and evidence that might change my mind. Some trails reconstruct earlier research discussions rather than quote them word for word.
 
 ## What belongs here
 
@@ -121,7 +124,3 @@ For the latest source checks, new paper appraisals and remaining verification ga
 - [Reproducible Markdown link auditor](scripts/audit_research_links.py) — checks repository paths; optional network checks require running it with --external and manually investigating failures.
 
 Not all podcast episodes have been transcript-reviewed, and an end-to-end external-link audit has not been executed. The notes label these limits rather than implying completed verification.
-
-## Question trails
-
-I also keep a [question-trail register](question-trails/README.md) to preserve how a research question develops: the follow-up questions, competing explanations, what the evidence does and does not support, and where my position remains provisional. These are dated research reconstructions, not fabricated transcripts of private conversations.
