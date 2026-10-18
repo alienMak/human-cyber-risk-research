@@ -105,3 +105,63 @@ Two already indexed studies provide contrasting evidence; this is **not** a new 
 **Researcher review question:** If the action log and the participant's later explanation disagree, which conclusion is justified—and what additional evidence would actually resolve it?
 
 **Public IP check:** Only cited published studies and general methodological questions; no unpublished formulas, private implementation, participant records or confidential material.
+
+
+## Q: Does refusing more suspicious requests mean someone learned to discriminate better? (18 October 2026)
+
+**Short answer:** Not without measuring decisions on legitimate requests too. An increase in rejections could indicate improved attack recognition, a more conservative response threshold, or both.
+
+**Primary research anchor:** [Canfield et al., *Replication: Challenges in Using Data from Phishing Experiments to Measure Security Behavior* (SOUPS 2017)](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/canfield). The study compared phishing email judgments and other security-behavior measures; its key limitation for this question is that a laboratory classification score did not establish predictive validity for the independently observed security actions in that sample. **Evidence status here:** existing repository appraisal and original publisher record; not a fresh complete-paper reanalysis.
+
+**Second anchor:** [Nicholson, Coventry and Briggs, *Can We Fight Social Engineering Attacks by Social Means? Assessing Social Salience as a Means to Improve Phish Detection* (SOUPS 2017)](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/nicholson). This work examined detection and confidence in a phishing-classification task. The repository has previously recorded publisher-level evidence about confidence calibration and salience; **not a new full-text appraisal in this cycle**.
+
+### Worked example — synthetic, not a result from either paper
+
+Suppose a balanced test has 10 malicious and 10 legitimate requests. We call “reject as suspicious” a positive detection.
+
+| Decision counts | Participant A | Participant B |
+| --- | ---: | ---: |
+| Malicious requests rejected (true positives) | 9 | 9 |
+| Malicious requests accepted (false negatives) | 1 | 1 |
+| Legitimate requests rejected (false positives) | 9 | 0 |
+| Legitimate requests accepted (true negatives) | 1 | 10 |
+| Detection rate on malicious requests | 90% | 90% |
+| False-alarm rate on legitimate requests | 90% | 0% |
+| Overall classification accuracy | 50% | 95% |
+
+Both participants have the **same malicious-request rejection rate**, yet their overall ability to distinguish legitimate from malicious requests differs sharply. Participant A might be deliberately cautious, confused, or responding to high perceived consequences; these counts alone cannot identify the motivation.
+
+### Signal detection, without pretending the example is validated
+
+- **Sensitivity / discrimination** concerns separating malicious from legitimate stimuli.
+- **Response criterion / bias** concerns the tendency to label a stimulus suspicious when uncertain.
+- A hit rate and a false-alarm rate jointly provide more information than either alone. Under a suitable signal-detection model, they can be used to estimate sensitivity and criterion; model assumptions, class balance and extreme-rate corrections matter.
+- An overall accuracy score depends on the proportion of malicious and legitimate cases. If that proportion changes, accuracy can change even when a participant's underlying decisions do not.
+- In real workflows, **independent verification, deferral and reporting** may be reasonable alternatives to immediate accept/reject; a binary task omits them. “Reject legitimate” is not necessarily harmful if it means a temporary pause followed by successful verification.
+
+### What would discriminate the competing explanations?
+
+**Hypothesis A — genuine discrimination:** With unfamiliar, comparably difficult cases, malicious requests are more often identified while legitimate requests continue to be handled appropriately.
+
+**Hypothesis B — blanket avoidance:** Malicious requests are more often rejected, but legitimate requests are rejected at a similar or greater rate.
+
+**Hypothesis C — scenario or base-rate change:** Apparent gains come from easier lures, a different mix of legitimate cases or changes in participant expectations rather than learning.
+
+A credible future study should preregister the relevant outcomes, independently establish ground truth, include both classes, consider task order and familiarity, report uncertainty, and analyze repeated decisions without treating them as independent participants. It should also consider the cost of errors in the relevant setting, not assume that all false positives and false negatives have equal consequences.
+
+### Eight-domain checkpoint for this *synthesis*, not a new primary-paper appraisal
+
+| Domain | What is established here | Outstanding work |
+| --- | --- | --- |
+| Design | Conceptual comparison of two classifications | Prospectively test retention and transfer |
+| Sampling | Synthetic 20-request illustration only | Recruit an appropriate, diverse sample |
+| Outcome definition | True/false positives and negatives defined | Distinguish reject, defer, verify and report |
+| Confounding | Criterion and scenario composition explicitly separated | Control lure difficulty and context |
+| Measurement | Fully reproducible synthetic confusion matrices | Validate real scenario labels and logging |
+| Analysis | Arithmetic checked; no inferential estimates claimed | Estimate uncertainty, within-person dependence and calibration |
+| Generalization | No external validity claimed for synthetic counts | Test unfamiliar channels and real consequences |
+| Ethics/reproducibility | Synthetic counts; no human data | Consent, privacy, deception and accessibility review |
+
+**Researcher review question:** If a participant rejects every request, is that good security performance, a failure to discriminate, or a reasonable strategy in an environment where the costs of accepting are exceptionally high? The answer depends on ground truth, available verification routes and consequences.
+
+**Public IP check:** General published methodological ideas and synthetic numbers only; no unpublished scoring formula, proprietary assessment rules, architecture or private participant data.
