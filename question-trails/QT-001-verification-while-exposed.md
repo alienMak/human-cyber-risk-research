@@ -1,0 +1,45 @@
+# QT-001 — Verification while still exposed
+
+**Recorded:** 18 October 2026  
+**Origin:** Earlier researcher discussion about a suspicious caller and whether remaining on the call while searching for confirmation should count as caution or continued exposure. This note is a reconstruction of the research question, **not a verbatim transcript or a validated experiment**.  
+**Status:** Open; conceptual analysis.
+
+## Brief
+
+Someone can be trying to verify a suspicious claim and still be exposed to the person making it. Those are two different dimensions. Calling the behavior simply “cautious” overlooks the continued opportunity for manipulation; calling it simply “risky” overlooks the decision to seek independent evidence. The interesting question is what the person actually verifies, and whether the attacker can keep influencing that process.
+
+## Question chain
+
+| Step | Question | Working answer | What it opens up |
+| --- | --- | --- | --- |
+| Q1 | If a person keeps a suspicious caller on the line while searching for confirmation, is that caution or risk? | Potentially both. Verification intent and ongoing exposure are not opposites. | What makes the check genuinely independent? |
+| Q2 | Does searching online while the caller continues speaking count as independent verification? | Not necessarily. The caller may suggest search terms, websites, names or explanations. | How much control does the caller retain over the evidence? |
+| Q3 | What changes if the person ends the call and contacts the institution through a separately obtained channel? | It can reduce the caller's direct influence over the next step; it does not automatically guarantee the new channel is authentic. | What evidence establishes channel independence? |
+| Q4 | Is a successful refusal enough to classify the entire interaction as safe? | No. A final refusal and the intermediate exposure are distinct observations. | Should outcomes and process be measured separately? |
+| Q5 | What would disprove the claim that staying connected increases manipulation risk? | Comparative evidence showing no difference under appropriately matched scenarios, or evidence that some verification methods reliably neutralize continued influence. | How could a controlled study distinguish time, verification quality and persuasion? |
+
+## Competing explanations
+
+**Exposure mechanism:** Continued interaction gives a manipulator additional chances to reframe the story, introduce urgency or steer the person's verification. This is plausible, not established here as a quantified effect.
+
+**Active-checking mechanism:** A person who remains engaged may be deliberately collecting inconsistencies and may be less likely to comply. That too is plausible; staying on the line does not by itself reveal intent or susceptibility.
+
+**Context mechanism:** Differences could be driven by scenario difficulty, prior experience, available contact methods or whether the suspicious caller can see and react to the verification attempt.
+
+## Evidence and boundaries
+
+- [NIST Phish Scale research note](../literature-review/full-text-appraisals/steves-greene-theofanos-2020.md) supports attention to scenario difficulty and audience context **in email-phishing exercises**. It does not directly test live suspicious calls.
+- [Zheng and Becker 2023 appraisal](../literature-review/full-text-appraisals/zheng-becker-2023.md) addresses the usability of email verification tools, not the effect of keeping a caller on the line.
+- [Legitimate trust and verification](../research-notes/legitimate-trust-and-verification.md) is a conceptual companion, not a source of new experimental evidence.
+
+**Evidence status:** Conceptual synthesis with related, non-equivalent empirical literature. No caller-specific experiment has been verified for this note.
+
+## Provisional position
+
+Don't collapse verification intent, verification quality, continued exposure and final decision into one label. Record the distinctions first. **Confidence:** Moderate in the conceptual distinction; low in any causal claim about whether staying connected changes actual outcomes.
+
+## Next questions worth testing
+
+Could a controlled, ethically reviewed simulation compare independently sourced verification after ending contact with verification attempted while the suspicious party remains engaged? Which observations would distinguish active checking from susceptibility without assuming that a longer conversation is automatically failure?
+
+**Public boundary:** No private scoring rules or unpublished VISHWAR implementation are disclosed.
