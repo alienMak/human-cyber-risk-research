@@ -37,8 +37,27 @@ A future independently designed study could distinguish:
 
 ## Next reading priorities
 
-1. Canfield et al. 2017 full text: sample, statistical power, endpoint alignment, effect estimates and confidence intervals.
+1. Canfield et al. 2017: reconcile the previously reported full-text reading with a durable eight-domain appraisal before treating that review as archived; the original publisher abstract confirms the null predictive-validity finding, but this note does not independently reproduce the full numerical analysis.
 2. Zheng and Becker 2023 full text: exact check-button functionality, task outcomes and what “useful” means.
 3. Previously indexed Tabassum 2024 and Chen 2024: verification behavior and perceived consequences; avoid duplicate entries.
 
 **Publishing boundary:** Only public research questions and cited studies. No VISHWAR implementation, proprietary metrics, participant records or confidential organizational material.
+
+
+## Follow-up: a correct rejection may be recognition or blanket avoidance (18 October 2026)
+
+**Twin question:** If two people reject the same suspicious email, what evidence would show that one recognized deception while the other simply rejects unfamiliar messages?
+
+**Provisional answer:** The single rejection does not distinguish those explanations. A comparison must also include legitimate messages, because refusing everything can produce perfect rejection of attacks while imposing false-alarm costs. This is an established signal-detection distinction, not a new construct or a validated scoring approach.
+
+**Primary-source cross-checks:**
+
+- [Canfield et al., SOUPS 2017](https://www.usenix.org/system/files/conference/soups2017/soups2017-canfield.pdf), Introduction and signal-detection task: distinguishes sensitivity to phishing versus legitimate emails from response bias. The publisher reports that task performance did not predict the particular observed malicious-software, URL and file outcomes in the Security Behavior Observatory. **Status for this follow-up: publisher abstract and PDF introduction checked; previous full-text numerical reading not independently repeated.** This is not proof that behavioral assessments cannot predict appropriately matched phishing decisions.
+- [Nicholson, Coventry and Briggs, SOUPS 2017](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/nicholson): publisher abstract reports improved phishing detection from sender salience without an unwanted response bias, and poorly calibrated confidence, particularly for phishing messages. **Status here: ABSTRACT-ONLY.** The paper's intervention and sample must be checked in full before extending its result to other contexts.
+- [Lastdrager et al., SOUPS 2017](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/lastdrager): publisher abstract reports that children's training-related phishing recognition gain returned to baseline after four weeks, while legitimate-email recognition followed a different pattern. **Status here: ABSTRACT-ONLY.** This illustrates why changes in attack rejection and legitimate acceptance should not be collapsed into a single training narrative.
+
+**Competing explanations:** (1) improved discrimination between legitimate and suspicious messages; (2) a more conservative response threshold with more false alarms; (3) variation in message difficulty, familiarity or opportunity to respond. These sources do not establish which mechanism explains a particular individual's decision.
+
+**Possible future test, not an implemented system:** Compare responses to consented legitimate and suspicious communications of appropriately matched difficulty. Report mistaken acceptance and mistaken rejection separately; investigate whether an apparent improvement in attack rejection coincides with greater rejection of legitimate requests. Repeat with unfamiliar examples to distinguish retention from recognition of previously seen material. This is a general methodological question, not a proprietary implementation or scoring formula.
+
+**Researcher review question:** If someone never clicks a suspicious message, are they recognizing threats or simply refusing to engage with anything unfamiliar?
