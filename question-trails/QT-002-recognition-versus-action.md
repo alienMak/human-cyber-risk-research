@@ -36,8 +36,5 @@ A person can recognize a suspicious request and still comply. Conversely, someon
 
 Keep initial interpretation, available actions, observed verification and final action conceptually separate. Moderate confidence in construct separation; low confidence in specific causal mechanisms.
 
-## Next test
-
-Develop an ethically appropriate, pre-specified comparison with aligned observable outcomes, legitimate control cases where applicable, scenario-context documentation, and a way to discriminate the competing explanations. Record what would change the conclusion before interpreting results.
 
 **Publishing boundary:** No private participant records, unpublished methods, proprietary scoring formulas, or confidential employer material.
