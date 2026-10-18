@@ -39,8 +39,5 @@ Someone can be trying to verify a suspicious claim and still be exposed to the p
 
 Don't collapse verification intent, verification quality, continued exposure and final decision into one label. Record the distinctions first. **Confidence:** Moderate in the conceptual distinction; low in any causal claim about whether staying connected changes actual outcomes.
 
-## Next questions worth testing
-
-Could a controlled, ethically reviewed simulation compare independently sourced verification after ending contact with verification attempted while the suspicious party remains engaged? Which observations would distinguish active checking from susceptibility without assuming that a longer conversation is automatically failure?
 
 **Public boundary:** No private scoring rules or unpublished VISHWAR implementation are disclosed.
