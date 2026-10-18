@@ -19,6 +19,12 @@ Improvement on a repeated security exercise might indicate learning. It might al
 | Q4 | Could feedback improve one task but not others? | Yes, as a hypothesis. Task-specific improvement and broader transfer are distinct outcomes. | How should those outcomes be reported? |
 | Q5 | What would challenge a familiarity-only explanation? | Repeated gains on matched novel tasks after delay, relative to a suitable comparison group. | Would those gains survive changes of channel and context? |
 
+## Reasoning in more detail
+
+Consider someone who sees a suspicious scholarship message twice. On the second exposure they may notice the same unusual wording immediately. That is better performance on that example, but it does not show they would recognize a different impersonation using a different channel and different cues. Repetition may teach a general principle, a specific answer, or merely where the interface expects a click.
+
+Novel scenarios help only when novelty is real. Changing a name and logo while preserving the exact same decision structure could still reward memorized cues. Delayed observations add another dimension: improvement that survives time is more interesting than an immediate post-training result, but it can also be influenced by other learning or selective participation. These alternatives make a simple before-and-after comparison less conclusive than it initially appears.
+
 ## Competing explanations
 
 1. Participants acquired a more generalizable skill.
