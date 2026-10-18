@@ -83,3 +83,25 @@ Two already indexed studies provide contrasting evidence; this is **not** a new 
 **Researcher review question:** When a participant performs better later, did they learn to recognize the underlying deception or to recognize the assessment's patterns?
 
 **Public-IP check:** Published abstracts and general methodological questions only; no unpublished technical methods, proprietary scoring, participant data or confidential material.
+
+
+## Follow-up: a plausible explanation is not an observed decision sequence (18 October 2026)
+
+**Twin question:** When someone explains *why* they accepted or rejected a message after the event, which parts of that account can the study actually verify?
+
+**Evidence already appraised, not a new independent literature search:**
+
+- [Wash, Nthala and Rader, SOUPS 2021](https://www.usenix.org/system/files/soups2021-wash.pdf), §§3–6: 297 U.S. respondents retrospectively described a memorable suspicious email. The authors analyzed self-reported expectations, investigation and action. Their design does **not** independently reconstruct the full decision sequence or verify the true legitimacy of every recalled message. See [full-text working appraisal](../literature-watch/2026-10-18-when-suspicion-is-correct-but-the-email-is-legitimate.md).
+- [Häring et al., SOUPS 2024](https://www.usenix.org/system/files/soups2024-haring.pdf), §§3.2–3.3: a laboratory authentication study captured think-aloud behavior, interaction recordings and post-task accounts. Seven of 18 main-study participants transmitted simulated sensitive material to impersonators. Such contemporaneous records can document what participants *did* more directly than retrospective recall, but think-aloud and researcher presence may alter behavior. See [full-text working appraisal](../literature-watch/2026-10-18-verification-after-mismatch.md).
+
+**What these designs do and do not establish:** A retrospective account gives access to what a participant remembers and is willing to describe; an interaction trace establishes observable steps, not the full private reasoning behind them. Think-aloud data are contemporaneous verbalizations, not a transparent recording of cognition. Neither paper directly randomizes people to retrospective versus contemporaneous reporting to estimate the causal effect of recall.
+
+**Competing explanations for a polished after-the-fact account:** (1) accurate memory of the original reasoning; (2) reconstruction influenced by the known outcome; (3) selective reporting of steps that sound defensible; (4) omission of mundane actions that were not memorable. These are hypotheses, not diagnoses of the people in either study.
+
+**Methodological question for future work:** For consented security simulations, distinguish timestamped observed actions, contemporaneous verbalizations and post-task explanations as separate evidence types. Compare agreement and disagreement between them, without assuming the trace reveals intent or that disagreement proves dishonesty. Consider observation effects, privacy safeguards and what cannot be recorded ethically. This is a public research question, not a proprietary instrumentation specification.
+
+**Boundary:** These two studies involve different populations, tasks and evidence collection. No shared effect size, causal comparison or validated inference about individual cognition follows from juxtaposing them.
+
+**Researcher review question:** If the action log and the participant's later explanation disagree, which conclusion is justified—and what additional evidence would actually resolve it?
+
+**Public IP check:** Only cited published studies and general methodological questions; no unpublished formulas, private implementation, participant records or confidential material.
