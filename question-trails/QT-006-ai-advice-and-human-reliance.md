@@ -19,6 +19,12 @@ The same advice may be interpreted differently when it comes from a colleague, a
 | Q4 | What happens when advice quality conflicts with confident presentation? | A controlled comparison could distinguish content quality from authority cues. | Are users detecting errors or deferring to style? |
 | Q5 | What would change the current view? | Replicated controlled results showing no source effect after interface and quality controls would weaken the source-label hypothesis. | Which settings generalize beyond laboratory tasks? |
 
+## Reasoning in more detail
+
+Imagine identical advice shown once as a colleague's recommendation and once as a conversational AI response. If people react differently, the difference might be caused by the attributed source, but it might also arise from expectations about speed, confidence or the interface surrounding the advice. Simply comparing two existing products would not isolate a source effect.
+
+Reliance is also not the same as good judgment. Following correct advice can help; following confidently presented incorrect advice can hurt. A participant who checks the underlying evidence before acting is doing something different from one who accepts the answer because it sounds authoritative. The public research-question register identifies this as an open extension into AI settings. The linked email-security research does not directly establish how people behave with AI advice.
+
 ## Competing explanations
 
 1. Source-label/authority effects.
