@@ -17,12 +17,17 @@ Improvement on a repeated security exercise might indicate learning. It might al
 | Q3 | What does a delayed follow-up add? | It tests persistence, but outside exposure and attrition may confound interpretation. | What controls and records are needed? |
 | Q4 | Could feedback improve one task but not others? | Yes, as a hypothesis. Task-specific improvement and broader transfer are distinct outcomes. | How should those outcomes be reported? |
 | Q5 | What would challenge a familiarity-only explanation? | Repeated gains on matched novel tasks after delay, relative to a suitable comparison group. | Would those gains survive changes of channel and context? |
+| Q6 | If email classification improves four months after training but not six, has the training failed? | Not necessarily. It suggests the measured improvement was not maintained at that observation point; it does not establish that every learned skill disappeared. | What did the study actually measure? |
+| Q7 | Does retaining an ability to classify phishing emails show safer behavior in a real workplace? | No. Classification, verification and consequential action are different outcomes. Transfer beyond the studied email task remains unestablished. | What comparison would separate retention from transfer? |
+| Q8 | Could broader suspicion look like improved learning? | Yes. A person who rejects more messages may detect more phishing while also rejecting legitimate work. Both error types need consideration. | Is the improvement discrimination or indiscriminate distrust? |
 
 ## Reasoning in more detail
 
 Consider someone who sees a suspicious scholarship message twice. On the second exposure they may notice the same unusual wording immediately. That is better performance on that example, but it does not show they would recognize a different impersonation using a different channel and different cues. Repetition may teach a general principle, a specific answer, or merely where the interface expects a click.
 
 Novel scenarios help only when novelty is real. Changing a name and logo while preserving the exact same decision structure could still reward memorized cues. Delayed observations add another dimension: improvement that survives time is more interesting than an immediate post-training result, but it can also be influenced by other learning or selective participation. These alternatives make a simple before-and-after comparison less conclusive than it initially appears.
+
+**Hypothetical counterexample (not study data):** After training, a person labels nearly every unfamiliar message suspicious. Their phishing detection rises, but so does rejection of legitimate requests. That pattern is compatible with greater caution, not necessarily better discrimination or transfer. Conversely, a person could classify examples correctly and still comply under workplace pressure. These possibilities cannot be resolved from classification accuracy alone.
 
 ## Competing explanations
 
@@ -32,12 +37,12 @@ Novel scenarios help only when novelty is real. Changing a name and logo while p
 
 ## Evidence ledger
 
-- [Reinheimer et al. 2020 appraisal](../literature-review/full-text-appraisals/reinheimer-2020.md): longitudinal training context, not an independent replication.
+- [Reinheimer et al. 2020 appraisal](../literature-review/full-text-appraisals/reinheimer-2020.md): partial appraisal based on the original USENIX publisher abstract and published measurement timeline (not a full methods extraction). The authors report improved email classification immediately and at four months, but not six months, in one German public-administration setting; this does not measure real-world compliance or cross-channel transfer.
 - [Research questions register](../research-questions/README.md): RQ-04 identifies a future transfer test.
 - [Recognition-to-action research agenda](../literature-review/recognition-to-action-research-questions.md): distinguishes observed decisions from inferred reasoning.
 
-## Position
+## Provisional position and confidence
 
-Treat improvement on repeated material as task-specific until appropriately matched novel tasks and delayed follow-up support transfer. The competing explanations remain open.
+Treat improvement on repeated material as task-specific until appropriately matched novel tasks and delayed follow-up support transfer. **Moderate confidence** that task familiarity, retention and transfer require separate measurements; **low confidence** in any generalization to consequential workplace decisions from the cited classification results. The competing explanations remain open.
 
 **Boundary:** No proprietary assessment formulas, participant records or unpublished platform details.
