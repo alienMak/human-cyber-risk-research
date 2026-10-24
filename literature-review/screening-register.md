@@ -11,6 +11,8 @@ This is the audit trail for expanding the 2016–2026 review. It starts now, not
 
 | 2026-10-23 | Publisher/institutional records: SAGE, Macquarie/Adelaide, PubMed; USENIX/NIST cross-check | Targeted titles/DOIs: “The roles of phishing knowledge, cue utilization, and decision styles in phishing email detection”; “Like Shooting Phish in a Barrel”; “Quantifying Phishing Susceptibility for Detection and Behavior Decisions”; plus phishing false-alarm / signal-detection searches | 2016–2026 | Not systematically enumerable in ranked web results | 5 named primary records checked | 3 newly indexed canonical papers | 2 already indexed (Zheng & Becker 2022; Steves et al. 2020), **DUPLICATE** | Sturman 2024 and Morrison 2025-issue **FULL TEXT**; Canfield 2016 **ABSTRACT-ONLY**. Separate Canfield 2017 replication already covered. No PRISMA count or exhaustive-search claim. |
 
+| 2026-10-24 | NIST/Oxford original journal PDF; USEC 2019 original PDF; NIST M3AAWG 2021 record; IEEE S&P 2025 publisher abstract; arXiv 2025 record | Targeted: Phish Scale difficulty, click-rate calibration, workplace context, validation, longitudinal training | 2016–2026 | Ranked web results not exhaustively enumerable | 5 named source records | 1 existing 2020 matrix entry upgraded to full-text; 2019 predecessor checked for overlap | No new independent matrix entry | 2019/2020 share exercises; 2021 guidance is not a new validation study; 2025 IEEE already indexed, abstract-only here; 2025 arXiv preprint already indexed, abstract-only here. [Full appraisal](../literature-watch/2026-10-24-phishing-difficulty-and-click-rate-interpretation.md). |
+
 ## New search checklist
 
 For a future database search, record:
@@ -42,3 +44,11 @@ This register is not a PRISMA flow diagram. That would require complete tracked 
 - **Source types:** All included items are peer-reviewed journal papers. No preprints, news or podcasts entered the scholarly synthesis in this run.
 
 Searches were targeted, not a reproducible database-wide enumeration; the raw ranked-result denominator is unavailable. The [detailed appraisal](../literature-watch/2026-10-23-classification-errors-and-reasonable-reporting.md) records the two full-text reviews and the abstract-only boundary.
+
+### Targeted screening decisions, 24 October 2026
+
+- **UPGRADE, FULL TEXT:** [Steves, Greene & Theofanos (2020)](https://doi.org/10.1093/cybsec/tyaa009), *Journal of Cybersecurity*. Original 16-page NIST-hosted journal PDF and tables appraised. Existing evidence-matrix row updated, not counted as a newly discovered publication. Table 13 denominator discrepancy preserved without correction.
+- **VERSION RELATION, FULL TEXT CHECKED:** [Steves et al. (USEC 2019)](https://doi.org/10.14722/usec.2019.23028), seven earlier exercises. The 2020 journal paper extends this research; the two records are not independent replications.
+- **CONTEXT, RECORD/ABSTRACT ONLY:** [Dawkins et al. (M3AAWG 2021)](https://www.nist.gov/publications/nist-phish-scale-method-rating-human-phishing-detection-difficulty), practitioner guidance, not independent outcome validation.
+- **ALREADY INDEXED, ABSTRACT-ONLY FOR THIS RUN:** [Ho et al. (IEEE S&P 2025)](https://doi.org/10.1109/SP61157.2025.00076), peer-reviewed field experiment; [Rozema & Davis (arXiv 2025)](https://arxiv.org/abs/2506.19899), **preprint**. Neither is treated as full-text appraised here.
+- **Other source types:** No news or podcasts included. Searches were targeted rather than exhaustive, so no PRISMA screening denominator is claimed.
