@@ -13,6 +13,8 @@ This is the audit trail for expanding the 2016–2026 review. It starts now, not
 
 | 2026-10-24 | NIST/Oxford original journal PDF; USEC 2019 original PDF; NIST M3AAWG 2021 record; IEEE S&P 2025 publisher abstract; arXiv 2025 record | Targeted: Phish Scale difficulty, click-rate calibration, workplace context, validation, longitudinal training | 2016–2026 | Ranked web results not exhaustively enumerable | 5 named source records | 1 existing 2020 matrix entry upgraded to full-text; 2019 predecessor checked for overlap | No new independent matrix entry | 2019/2020 share exercises; 2021 guidance is not a new validation study; 2025 IEEE already indexed, abstract-only here; 2025 arXiv preprint already indexed, abstract-only here. [Full appraisal](../literature-watch/2026-10-24-phishing-difficulty-and-click-rate-interpretation.md). |
 
+| 2026-10-26 | USENIX SOUPS original paper and PDF; NDSS USEC original paper and PDF; IEEE S&P publisher abstract; institutional DOI cross-check | Targeted: phishing training retention, reminder timing, repeated stimuli, classification versus field behavior | 2016–2026 | Ranked search denominator not systematically enumerable | 3 named primary papers, plus institutional identity checks | Reinheimer 2020 existing row upgraded; Berens 2022 new row; Ho 2025 context only | No paper excluded as duplicate; Reinheimer already indexed | Reinheimer and Berens **FULL TEXT**; Ho **ABSTRACT-ONLY**; no news/podcast/preprint evidence |
+
 ## New search checklist
 
 For a future database search, record:
@@ -52,3 +54,12 @@ Searches were targeted, not a reproducible database-wide enumeration; the raw ra
 - **CONTEXT, RECORD/ABSTRACT ONLY:** [Dawkins et al. (M3AAWG 2021)](https://www.nist.gov/publications/nist-phish-scale-method-rating-human-phishing-detection-difficulty), practitioner guidance, not independent outcome validation.
 - **ALREADY INDEXED, ABSTRACT-ONLY FOR THIS RUN:** [Ho et al. (IEEE S&P 2025)](https://doi.org/10.1109/SP61157.2025.00076), peer-reviewed field experiment; [Rozema & Davis (arXiv 2025)](https://arxiv.org/abs/2506.19899), **preprint**. Neither is treated as full-text appraised here.
 - **Other source types:** No news or podcasts included. Searches were targeted rather than exhaustive, so no PRISMA screening denominator is claimed.
+
+### Targeted screening decisions, 26 October 2026
+
+- **UPGRADE, FULL TEXT:** [Reinheimer et al. (SOUPS 2020)](https://doi.org/10.5555/3488905.3488920), original USENIX PDF, §§3–7 and Figures 1, 3–5. Previously indexed at abstract level; not counted as a newly found study. The evaluation concerns 20-item email classification, not observed inbox behavior.
+- **INCLUDE, FULL TEXT:** [Berens et al. (USEC 2022)](https://doi.org/10.14722/usec.2022.23075), original NDSS-hosted paper, §§IV–VI, Tables I–II. Distinct university follow-on using related training content, with 16 participants linked across the three tests; not an independent validation of actual inbox behavior.
+- **CONTEXT, ABSTRACT-ONLY:** [Ho et al. (IEEE S&P 2025)](https://doi.org/10.1109/SP61157.2025.00076). Already indexed; publisher abstract rechecked for the difference between classification retention and operational campaign outcomes. No new full-text claims.
+- **Deduplication:** Reinheimer 2020 and Ho 2025 were already in the matrix. Berens 2022 was not found by title/author in the matrix or this register before addition. Institutional DOI record corroborated Reinheimer's bibliographic identity.
+- **Source types:** Two peer-reviewed full-text papers; one peer-reviewed abstract-only comparator. No preprints, news or podcasts incorporated. Search was targeted, not an exhaustive database sweep; no PRISMA denominator is inferred. See [full appraisal](../literature-watch/2026-10-26-training-retention-versus-behavior.md).
+
