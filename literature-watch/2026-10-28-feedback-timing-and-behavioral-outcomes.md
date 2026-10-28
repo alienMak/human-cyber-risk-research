@@ -17,7 +17,7 @@ Participants were randomly assigned to **feedback versus no feedback**. For base
 
 ## Outcomes and reported effects
 
-The two prespecified kinds of observable outcome at the second simulated email were **interaction** (clicked link or opened attachment; the paper calls this “fell victim”) and **reporting**. Neither is a direct measure of recognizing cues, learning, real compromise or durable behavior beyond the second message. The authors pooled three waves with wave indicators in logistic regressions (*Results*, printed pp. 534–536; Figure 2 and Table 1).
+The two measured kinds of observable outcome at the second simulated email were **interaction** (clicked link or opened attachment; the paper calls this “fell victim”) and **reporting**. Neither is a direct measure of recognizing cues, learning, real compromise or durable behavior beyond the second message. The authors pooled three waves with wave indicators in logistic regressions (*Results*, printed pp. 534–536; Figure 2 and Table 1).
 
 | Baseline response group | Assessment outcome | No feedback | Feedback | Adjusted odds ratio for feedback, Table 1 |
 | --- | --- | ---: | ---: | ---: |
