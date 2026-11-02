@@ -35,7 +35,7 @@ The same higher-LSAS group sometimes identified unusual tone, pressure, missing 
 | Measurement | **Partial** | Established LSAS/PHQ-9/GAD-7 measures described; interview themes are interpretive, not validated susceptibility scores (§§3.1.2, 4.1–4.2). |
 | Analysis | **Partial** | Two coders, reflexive thematic analysis and conceptual checking reported; no statistical between-group test, and qualitative frequency should not be read as an effect size (§§3.1.3, 4.1.2, 4.4). |
 | Generalization | **No for field behavior** | Disclosed, fixed-order role-play allows reflection without actual pressure; small academic/network sample and variable reporting infrastructure (§5.2). |
-| Ethics/reproducibility | **Partial** | UCL ethics approval, consent, pseudonyms, de-identification and support resources described (§2.5); materials/scenario excerpts described, but no independent replication or raw interview-data reanalysis undertaken. |
+| Ethics/reproducibility | **Partial** | UCL ethics approval, consent, pseudonyms, de-identification and support resources described (§2.5); [Study 2 materials linked in Appendix A.1](https://osf.io/z6j9m/?view_only=6d08aa4c874b484d8a56a6190086a501). The materials and raw interview data were not independently reanalyzed. |
 
 **Numerical caution:** The study-1 theme counts in Table 1 total 43 although 42 respondents were retained; the text states some people described multiple experiences. Do not mislabel these as mutually exclusive participant categories (§§3.1.3, 3.2; Table 1). A small discrepancy in the reported LSAS skewness between §3.1.4 and Figure 1 is not resolved here and is not used analytically.
 
