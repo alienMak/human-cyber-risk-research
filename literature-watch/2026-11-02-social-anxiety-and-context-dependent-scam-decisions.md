@@ -22,7 +22,7 @@ The same higher-LSAS group sometimes identified unusual tone, pressure, missing 
 
 **Participant suggestions (§4.5; proceedings pp. 322–323):** Respondents proposed automated warnings, accessible guidance, anonymous peer support and simpler reporting. These are *ideas elicited during interviews*, not evaluated products or demonstrated effective interventions.
 
-**My source-based interpretation:** Treating a psychological characteristic as a fixed individual cyber-risk label would overstate this evidence. A stronger question is which features of a request make someone pause, seek reassurance, disengage, or avoid asking for help. The costs and availability of reporting also need to be distinguished from recognition.
+**Source-based interpretation:** Treating a psychological characteristic as a fixed individual cyber-risk label would overstate this evidence. A stronger question is which features of a request make someone pause, seek reassurance, disengage, or avoid asking for help. The costs and availability of reporting also need to be distinguished from recognition.
 
 ## Eight-domain quality appraisal
 
