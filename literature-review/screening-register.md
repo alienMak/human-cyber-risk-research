@@ -138,3 +138,11 @@ Searches were targeted, not a reproducible database-wide enumeration; the raw ra
 - **RELATED, ABSTRACT-ONLY:** [Weidhaas et al. (SOUPS 2026)](https://www.usenix.org/conference/soups2026/presentation/weidhaas), distinct simulated-workplace emotional-response study (N=41). Previously indexed; full PDF was too large for reliable access this run. No status upgrade or duplicate matrix row.
 - **RELATED, ABSTRACT-ONLY:** [Eiger et al. (SOUPS 2026)](https://www.usenix.org/conference/soups2026/presentation/eiger), distinct post-incarceration scam-experience study (48 unique respondents per publisher). Publisher abstract supports reporting-stigma context only; no full-text methodology extracted.
 - **Source types:** All three are peer-reviewed proceedings papers; no preprints, news or podcasts used as empirical evidence. No extrapolation to clinical diagnosis, individual susceptibility scores or population prevalence.
+
+### Targeted screening decisions, 3 November 2026
+
+**Routes and query:** USENIX SOUPS 2021 original proceedings PDF and publisher page, targeted search for non-expert phishing knowledge and behavioral evidence; SOUPS 2026 emotional-response publisher record consulted for comparison. Ranked web results do not provide an exhaustive screening denominator. Two named peer-reviewed records were checked; neither is newly discovered in the repository.
+
+- **UPGRADE EXISTING, FULL TEXT:** [Wash, Nthala & Rader (SOUPS 2021)](https://www.usenix.org/system/files/soups2021-wash.pdf), §§3–6, pp. 379–388. Existing matrix row upgraded rather than duplicated. Survey N=297, selected recalled incidents; no observed inbox actions or verified ground truth. [Detailed appraisal](../literature-watch/2026-11-03-contextual-knowledge-and-retrospective-phishing-accounts.md).
+- **ALREADY INDEXED, ABSTRACT-ONLY FOR THIS CHECK:** [Weidhaas et al. (SOUPS 2026)](https://www.usenix.org/conference/soups2026/presentation/weidhaas). Distinct simulated-workplace qualitative study; no full-text claims added.
+- **Other source types:** No preprints, news or podcasts used. No systematic screening or independent replication claim.
