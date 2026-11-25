@@ -62,6 +62,12 @@ The [living evidence review](literature-review/README.md) brings together a sour
 
 The [literature watch](literature-watch/README.md) collects papers, incident analyses, articles and podcasts connected to the research questions, with a [source index](literature-watch/sources.md). I distinguish what a source actually reports from my interpretation of it; notes awaiting review are not presented as established findings.
 
+## Science communication and public engagement
+
+[The Side Nobody Asked](https://github.com/alienMak/the-side-nobody-asked) is my independent science communication initiative exploring overlooked questions through evidence-based storytelling. Its broader interests include human cognition, judgment, trust, and the ways evidence shapes what people believe.
+
+Where topics overlap with this research, the channel provides an accessible route into the underlying questions. Its episode archive documents sources, interpretations, limitations and corrections. It is a separate public engagement project: videos and illustrative demonstrations are not empirical research outputs, participant studies, or evidence validating VISHWAR, and are not part of the scoped literature review.
+
 ## Relationship to VISHWAR
 
 This is a separate research repository associated with VISHWAR. It is **not** the VISHWAR application source code, a production dependency, or an official release channel. Nothing in this repository should be treated as a complete description of VISHWAR's implementation.
